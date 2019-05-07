@@ -110,13 +110,14 @@
         padding:0 .095rem;
     }
     header .nav-wrap .nav .nav-item span{
-        line-height:.3rem
+        line-height:.3rem;
+        color:#747474
     }
     header .nav-wrap .nav .nav-item-exit{
         padding-right: .76rem;
         display: inline-block;
     }
-    header .nav-wrap .active{
+    header .nav-wrap .nav .active span{
         border-bottom:2px solid #f36f1c;
         color:#f36f1c
     }
