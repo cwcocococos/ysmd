@@ -1,0 +1,481 @@
+<template>
+    <section>
+        <article>
+            <div class="banner">
+                <div class="bannerCon">
+                    <ul class="pic">
+                        <li style="z-index:10"><img src="../assets/images/banner1.jpg" alt="" /></li>
+                        <li><img src="../assets/images/banner2.jpg" alt=""/></li>
+                        <li><img src="../assets/images/banner3.jpg" alt="" /></li>
+                    </ul>
+                    <ol style="z-index:15;">
+                        <li class="current"></li>
+                        <li></li>
+                        <li></li>
+                    </ol>
+                </div>
+            </div>
+            <figure>
+                <ul>
+                    <li>
+                        <i class="iconfont icon-huangguan1"></i>
+                        <p>新品发布</p>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-yonghu"></i>
+                        <p>小米众筹</p>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-huhuan"></i>
+                        <p>以旧换新</p>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-icon-test"></i>
+                        <p>1分拼盘</p>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-wenjian"></i>
+                        <p>超值特卖</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <i class="iconfont icon-Group"></i>
+                        <p>真心想要</p>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-jingxuan"></i>
+                        <p>每日臻选</p>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-dianshi"></i>
+                        <p>全面屏电视</p>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-jiadian"></i>
+                        <p>家电热卖</p>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-mifenqia-copy"></i>
+                        <p>米粉卡</p>
+                    </li>
+                </ul>
+            </figure>
+            <div class="advCon">
+                <div class="adv-img">
+                    <img src="../assets/images/adv-logo.jpg" alt="">
+                </div>
+                <div class="adv-font">
+                    <p>小米众测：新品米家直流变频落地扇1X</p>
+                </div>
+            </div>
+            <div class="advMain">
+                <div class="main-left">
+                    <img src="../assets/images/adv1.jpg" alt="">
+                </div>
+                <div class="main-right">
+                    <img src="../assets/images/adv2.jpg" alt="">
+                    <img src="../assets/images/adv3.jpg" alt="">
+                </div>
+            </div>
+            <div class="adv-pic">
+                <img src="../assets/images/adv4.jpg" alt="">
+            </div>
+            <div class="adv-news">
+                <img src="../assets/images/adv-pic.webp" alt="">
+            </div>
+            <div class="shopList clear_fix">
+                <div class="shopList-con">
+                    <img src="../assets/images/shoplist1.jpg" alt="">
+                    <h3>
+                        <p>Redmi Note7</p>
+                        <p>4800万拍照千元机</p>
+                        <p>￥999起</p>
+                    </h3>
+                </div>
+                <div class="shopList-con">
+                    <img src="../assets/images/shoplist2.jpg" alt="">
+                    <h3>
+                        <p>小米9SE</p>
+                        <p>索尼4800万三摄，骁龙712</p>
+                        <p>￥1999起</p>
+                    </h3>
+                </div>
+                <div class="shopList-con">
+                    <img src="../assets/images/shoplist3.jpg" alt="">
+                    <h3>
+                        <p>小米8青春版</p>
+                        <p>潮流轻旗舰，超级夜景模式</p>
+                        <p>￥1299起</p>
+                    </h3>
+                </div>
+                <div class="shopList-con">
+                    <img src="../assets/images/shoplist6.jpg" alt="">
+                    <h3>
+                        <p>小米8SE</p>
+                        <p>小屏旗舰机，AI超感光双摄</p>
+                        <p>￥1599起</p>
+                    </h3>
+                </div>
+                <div class="shopList-con">
+                    <img src="../assets/images/shoplist4.jpg" alt="">
+                    <h3>
+                        <p>小米平板4</p>
+                        <p>大屏、长续航、超薄电脑</p>
+                        <p>￥1099起</p>
+                    </h3>
+                </div>
+                <div class="shopList-con">
+                    <img src="../assets/images/shoplist5.jpg" alt="">
+                    <h3>
+                        <p>黑鲨游戏手机2</p>
+                        <p>骁龙855，立体触控</p>
+                        <p>￥3199起</p>
+                    </h3>
+                </div>
+            </div>
+            <div class="ti">
+                <p>更多小米手机产品 ></p>
+            </div>
+            <div class="adv-second">
+                <img src="../assets/images/adv-second.jpg" alt="">
+            </div>
+            <div class="adv-TV">
+                <img src="../assets/images/adv-TV.jpg" alt="">
+            </div>
+            <div class="shopList clear_fix">
+                <div class="shopList-con">
+                    <img src="../assets/images/shopTV1.webp" alt="">
+                    <h3>
+                        <p>电视4A 43"青春版</p>
+                        <p>人工智能，FHD全高清屏</p>
+                        <p>￥1399起</p>
+                    </h3>
+                </div>
+                <div class="shopList-con">
+                    <img src="../assets/images/shopTV2.webp" alt="">
+                    <h3>
+                        <p>小米电视4A 32英寸</p>
+                        <p>人工智能系统 高清液晶屏</p>
+                        <p>￥799起</p>
+                    </h3>
+                </div>
+                <div class="shopList-con">
+                    <img src="../assets/images/shopTV3.jpg" alt="">
+                    <h3>
+                        <p>小米电视4A 58英寸</p>
+                        <p>4K HDR，人工智能语音系统</p>
+                        <p>￥2499起</p>
+                    </h3>
+                </div>
+                <div class="shopList-con">
+                    <img src="../assets/images/shopTV4.webp" alt="">
+                    <h3>
+                        <p>小米电视4C 50英寸</p>
+                        <p>4K HDR，钢琴烤漆</p>
+                        <p>￥1899起</p>
+                    </h3>
+                </div>
+                <div class="shopList-con">
+                    <img src="../assets/images/shopTV5.webp" alt="">
+                    <h3>
+                        <p>小米电视4X 55英寸</p>
+                        <p>4K HDR，人工智能语音系统</p>
+                        <p>￥2099起</p>
+                    </h3>
+                </div>
+                <div class="shopList-con">
+                    <img src="../assets/images/shopTV6.webp" alt="">
+                    <h3>
+                        <p>小米电视4A 65英寸</p>
+                        <p>4K HDR，人工智能语音系统</p>
+                        <p>￥3199起</p>
+                    </h3>
+                </div>
+            </div>
+            <div class="ti">
+                <p>更多小米电视产品 ></p>
+            </div>
+            <div class="adv-three">
+                <img src="../assets/images/advBook.jpg" alt="">
+            </div>
+            <div class="adv-Book">
+                <img src="../assets/images/adv-Book.webp" alt="">
+            </div>
+            <div class="shopList clear_fix">
+                <div class="shopList-con">
+                    <img src="../assets/images/shopBook1.webp" alt="">
+                    <h3>
+                        <p>15.6" i5 8G MX110</p>
+                        <p>全面均衡的国民轻薄本</p>
+                        <p>￥4599起</p>
+                    </h3>
+                </div>
+                <div class="shopList-con">
+                    <img src="../assets/images/shopBook2.webp" alt="">
+                    <h3>
+                        <p>13.3" i7 MX150 灰色</p>
+                        <p>四核i7处理器 高性能独显</p>
+                        <p>￥5999起</p>
+                    </h3>
+                </div>
+                <div class="shopList-con">
+                    <img src="../assets/images/shopBook3.webp" alt="">
+                    <h3>
+                        <p>15.6" i7 16G MX150</p>
+                        <p>高性能独显 第八代处理器</p>
+                        <p>￥6999起</p>
+                    </h3>
+                </div>
+                <div class="shopList-con">
+                    <img src="../assets/images/shopBook4.webp" alt="">
+                    <h3>
+                        <p>13.3" i7 MX150 银色</p>
+                        <p>四核i7处理器 高性能独显</p>
+                        <p>￥5999起</p>
+                    </h3>
+                </div>
+                <div class="shopList-con">
+                    <img src="../assets/images/shopBook5.webp" alt="">
+                    <h3>
+                        <p>游戏本i7 GTX1060</p>
+                        <p>性能怪兽 信仰级游戏体验</p>
+                        <p>￥8299起</p>
+                    </h3>
+                </div>
+                <div class="shopList-con">
+                    <img src="../assets/images/shopBook6.webp" alt="">
+                    <h3>
+                        <p>12.5" m3 128G 银色</p>
+                        <p>轻薄长续航 超窄边框</p>
+                        <p>￥3599起</p>
+                    </h3>
+                </div>
+            </div>
+        </article>
+    </section>
+</template>
+
+<script>
+    export default {
+        name: "Select"
+    }
+</script>
+
+<style scoped>
+    section{
+        flex:1;
+        background:#efefef;
+        overflow:auto;
+    }
+    /*banner*/
+    .banner{
+        width:100%;
+        height:1.87rem;
+        position:relative;
+    }
+    .bannerCon{
+        height:1.87rem;
+        margin:0 auto;
+    }
+    .bannerCon img{
+        height:1.87rem;
+    }
+    .bannerCon ul li{
+        position:absolute;
+        left:50%;
+        margin-left:-1.875rem;
+    }
+    .bannerCon ol{
+        position: absolute;
+        right:.11rem;
+        bottom:.05rem;
+        width: .35rem;
+    }
+    .bannerCon ol li{
+        float: left;
+        width: .05rem;
+        height: .05rem;
+        margin: 0 .025rem;
+        border-radius: 50%;
+        cursor: default;
+        background-color:#f2f2f2;
+    }
+    .bannerCon ol li.current{
+        background-color:#ed145b;
+    }
+
+    section figure{
+        height:1.94rem;
+        background:#fff;
+        font-size:12px;
+        border-bottom:1px solid #f5f5f5
+    }
+    section figure ul{
+        display:flex;
+        justify-content:space-around;
+    }
+    section figure ul:nth-child(1){
+        padding:0.2rem 0;
+    }
+    section figure ul li{
+        width:1.44rem;
+        height: 0.76rem;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-around;
+        align-items:center;
+        color:#b5b5b5
+    }
+    section figure ul li .iconfont{
+        font-size:0.30rem
+    }
+    section figure ul li p{
+        text-align:center;
+    }
+    section figure ul:nth-child(1) li:nth-of-type(1) .iconfont{
+        color:#eb936d;
+    }
+    section figure ul:nth-child(1) li:nth-of-type(2) .iconfont{
+        color:#aebefa;
+    }
+    section figure ul:nth-child(1) li:nth-of-type(3) .iconfont{
+        color:#83d6ba;
+    }
+    section figure ul:nth-child(1) li:nth-of-type(4) .iconfont{
+        color:#a3c7fb;
+    }
+    section figure ul:nth-child(1) li:nth-of-type(5) .iconfont{
+        color:#a0c6f5;
+    }
+    section figure ul:nth-child(2) li:nth-of-type(1) .iconfont{
+        color:#a8b8f3;
+    }
+    section figure ul:nth-child(2) li:nth-of-type(2) .iconfont{
+        color:#b694f5;
+    }
+    section figure ul:nth-child(2) li:nth-of-type(3) .iconfont{
+        color:#edc06d;
+    }
+    section figure ul:nth-child(2) li:nth-of-type(4) .iconfont{
+        color:#ea635f;
+    }
+    section figure ul:nth-child(2) li:nth-of-type(5) .iconfont{
+        color:#f2ac70;
+    }
+    .advCon{
+        height:.455rem;
+        background:#fff;
+        border-top:1px solid #d2d2d2;
+        border-bottom:0.06rem solid #f5f5f5;
+        display:flex;
+        align-items:center
+    }
+    .advCon .adv-img{
+        height:.24rem;
+        width:.92rem;
+        border-right:1px solid #a8a8a8;
+        display:flex;
+        align-items:center;
+        justify-content:space-around
+    }
+    .advCon .adv-img img{
+        height:.15rem
+    }
+    .advCon .adv-font{
+        font-size:.125rem;
+        margin-left:.125rem
+    }
+    .advMain{
+        height:2.645rem;
+        display:flex
+    }
+    .advMain img{
+        width:1.865rem
+    }
+    .adv-pic{
+        height:1.458rem;
+        margin-top:0.083rem
+    }
+    .adv-pic img{
+        height:1.458rem
+    }
+    .adv-news{
+        height:2.291rem
+    }
+    .adv-news img{
+        height:2.291rem
+    }
+    .shopList{
+        min-height:8.060rem;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:space-between;
+        padding-top:.025rem;
+    }
+    .shopList .shopList-con{
+        width:49%;
+        height:2.695rem;
+        background:#fff
+    }
+    .shopList .shopList-con img{
+        width:1.875rem;
+        height:1.875rem
+    }
+    .shopList .shopList-con h3{
+        width:1.705rem;
+        height:0.64rem;
+        padding:.14rem 0 0 .17rem;
+    }
+    .shopList .shopList-con h3 p:nth-child(1){
+        font-size:.14rem;
+        line-height:.2rem;
+    }
+    .shopList .shopList-con h3 p:nth-child(2){
+        font-size: .057rem;
+        line-height: .2rem;
+        color: rgba(0,0,0,.54);
+    }
+    .shopList .shopList-con h3 p:nth-child(3){
+        font-size:.14rem;
+        line-height:.14rem;
+        color:#e57e2f;
+        line-height: .2rem;
+    }
+    .ti{
+        width:100%;
+        height:0.52rem;
+        border-top:0.005rem solid rgba(0,0,0,.54);
+        font-size:0.14rem;
+        background:#fff;
+        color:rgba(0,0,0,.54);
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        border-bottom:.125rem solid #f5f5f5
+    }
+    .adv-second{
+        height:1.458rem;
+    }
+    .adv-second img{
+        height:1.458rem;
+    }
+    .adv-TV{
+        height:2.291rem
+    }
+    .adv-TV img{
+        height:2.291rem
+    }
+    .adv-three{
+        height:1.458rem;
+    }
+    .adv-three img{
+        height:1.458rem;
+    }
+    .adv-Book{
+        height:2.291rem
+    }
+    .adv-Book img {
+        height: 2.291rem
+    }
+</style>
