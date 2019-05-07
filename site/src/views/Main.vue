@@ -11,8 +11,8 @@
 </template>
 
 <script>
-    import Home from "@/components/Home.vue"
-    import Select from "@/components/Select.vue"
+    import Home from "@/components/Home/Home.vue"
+    import Select from "@/components/Home/Select.vue"
     export default {
         name: "Main",
         components: {

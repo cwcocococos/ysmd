@@ -12,7 +12,7 @@
             <!-- nav -->
             <div class="nav-wrap">
                 <div class="nav-right">
-                    <img src="../assets/images/floor.jpg" alt="">
+                    <img src="@/assets/images/floor.jpg" alt="">
                 </div>
                 <div class="nav-items"></div>
                 <div class="nav">

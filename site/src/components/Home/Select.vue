@@ -4,9 +4,9 @@
             <div class="banner">
                 <div class="bannerCon">
                     <ul class="pic">
-                        <li style="z-index:10"><img src="../assets/images/banner1.jpg" alt="" /></li>
-                        <li><img src="../assets/images/banner2.jpg" alt=""/></li>
-                        <li><img src="../assets/images/banner3.jpg" alt="" /></li>
+                        <li style="z-index:10"><img src="@/assets/images/banner1.jpg" alt="" /></li>
+                        <li><img src="@/assets/images/banner2.jpg" alt=""/></li>
+                        <li><img src="@/assets/images/banner3.jpg" alt="" /></li>
                     </ul>
                     <ol style="z-index:15;">
                         <li class="current"></li>
@@ -63,7 +63,7 @@
             </figure>
             <div class="advCon">
                 <div class="adv-img">
-                    <img src="../assets/images/adv-logo.jpg" alt="">
+                    <img src="@/assets/images/adv-logo.jpg" alt="">
                 </div>
                 <div class="adv-font">
                     <p>小米众测：新品米家直流变频落地扇1X</p>
@@ -71,22 +71,22 @@
             </div>
             <div class="advMain">
                 <div class="main-left">
-                    <img src="../assets/images/adv1.jpg" alt="">
+                    <img src="@/assets/images/adv1.jpg" alt="">
                 </div>
                 <div class="main-right">
-                    <img src="../assets/images/adv2.jpg" alt="">
-                    <img src="../assets/images/adv3.jpg" alt="">
+                    <img src="@/assets/images/adv2.jpg" alt="">
+                    <img src="@/assets/images/adv3.jpg" alt="">
                 </div>
             </div>
             <div class="adv-pic">
-                <img src="../assets/images/adv4.jpg" alt="">
+                <img src="@/assets/images/adv4.jpg" alt="">
             </div>
             <div class="adv-news">
-                <img src="../assets/images/adv-pic.webp" alt="">
+                <img src="@/assets/images/adv-pic.webp" alt="">
             </div>
             <div class="shopList clear_fix">
                 <div class="shopList-con">
-                    <img src="../assets/images/shoplist1.jpg" alt="">
+                    <img src="@/assets/images/shoplist1.jpg" alt="">
                     <h3>
                         <p>Redmi Note7</p>
                         <p>4800万拍照千元机</p>
@@ -94,7 +94,7 @@
                     </h3>
                 </div>
                 <div class="shopList-con">
-                    <img src="../assets/images/shoplist2.jpg" alt="">
+                    <img src="@/assets/images/shoplist2.jpg" alt="">
                     <h3>
                         <p>小米9SE</p>
                         <p>索尼4800万三摄，骁龙712</p>
@@ -102,7 +102,7 @@
                     </h3>
                 </div>
                 <div class="shopList-con">
-                    <img src="../assets/images/shoplist3.jpg" alt="">
+                    <img src="@/assets/images/shoplist3.jpg" alt="">
                     <h3>
                         <p>小米8青春版</p>
                         <p>潮流轻旗舰，超级夜景模式</p>
@@ -110,7 +110,7 @@
                     </h3>
                 </div>
                 <div class="shopList-con">
-                    <img src="../assets/images/shoplist6.jpg" alt="">
+                    <img src="@/assets/images/shoplist6.jpg" alt="">
                     <h3>
                         <p>小米8SE</p>
                         <p>小屏旗舰机，AI超感光双摄</p>
@@ -118,7 +118,7 @@
                     </h3>
                 </div>
                 <div class="shopList-con">
-                    <img src="../assets/images/shoplist4.jpg" alt="">
+                    <img src="@/assets/images/shoplist4.jpg" alt="">
                     <h3>
                         <p>小米平板4</p>
                         <p>大屏、长续航、超薄电脑</p>
@@ -126,7 +126,7 @@
                     </h3>
                 </div>
                 <div class="shopList-con">
-                    <img src="../assets/images/shoplist5.jpg" alt="">
+                    <img src="@/assets/images/shoplist5.jpg" alt="">
                     <h3>
                         <p>黑鲨游戏手机2</p>
                         <p>骁龙855，立体触控</p>
@@ -138,14 +138,14 @@
                 <p>更多小米手机产品 ></p>
             </div>
             <div class="adv-second">
-                <img src="../assets/images/adv-second.jpg" alt="">
+                <img src="@/assets/images/adv-second.jpg" alt="">
             </div>
             <div class="adv-TV">
-                <img src="../assets/images/adv-TV.jpg" alt="">
+                <img src="@/assets/images/adv-TV.jpg" alt="">
             </div>
             <div class="shopList clear_fix">
                 <div class="shopList-con">
-                    <img src="../assets/images/shopTV1.webp" alt="">
+                    <img src="@/assets/images/shopTV1.webp" alt="">
                     <h3>
                         <p>电视4A 43"青春版</p>
                         <p>人工智能，FHD全高清屏</p>
@@ -153,7 +153,7 @@
                     </h3>
                 </div>
                 <div class="shopList-con">
-                    <img src="../assets/images/shopTV2.webp" alt="">
+                    <img src="@/assets/images/shopTV2.webp" alt="">
                     <h3>
                         <p>小米电视4A 32英寸</p>
                         <p>人工智能系统 高清液晶屏</p>
@@ -161,7 +161,7 @@
                     </h3>
                 </div>
                 <div class="shopList-con">
-                    <img src="../assets/images/shopTV3.jpg" alt="">
+                    <img src="@/assets/images/shopTV3.jpg" alt="">
                     <h3>
                         <p>小米电视4A 58英寸</p>
                         <p>4K HDR，人工智能语音系统</p>
@@ -169,7 +169,7 @@
                     </h3>
                 </div>
                 <div class="shopList-con">
-                    <img src="../assets/images/shopTV4.webp" alt="">
+                    <img src="@/assets/images/shopTV4.webp" alt="">
                     <h3>
                         <p>小米电视4C 50英寸</p>
                         <p>4K HDR，钢琴烤漆</p>
@@ -177,7 +177,7 @@
                     </h3>
                 </div>
                 <div class="shopList-con">
-                    <img src="../assets/images/shopTV5.webp" alt="">
+                    <img src="@/assets/images/shopTV5.webp" alt="">
                     <h3>
                         <p>小米电视4X 55英寸</p>
                         <p>4K HDR，人工智能语音系统</p>
@@ -185,7 +185,7 @@
                     </h3>
                 </div>
                 <div class="shopList-con">
-                    <img src="../assets/images/shopTV6.webp" alt="">
+                    <img src="@/assets/images/shopTV6.webp" alt="">
                     <h3>
                         <p>小米电视4A 65英寸</p>
                         <p>4K HDR，人工智能语音系统</p>
@@ -197,14 +197,14 @@
                 <p>更多小米电视产品 ></p>
             </div>
             <div class="adv-three">
-                <img src="../assets/images/advBook.jpg" alt="">
+                <img src="@/assets/images/advBook.jpg" alt="">
             </div>
             <div class="adv-Book">
-                <img src="../assets/images/adv-Book.webp" alt="">
+                <img src="@/assets/images/adv-Book.webp" alt="">
             </div>
             <div class="shopList clear_fix">
                 <div class="shopList-con">
-                    <img src="../assets/images/shopBook1.webp" alt="">
+                    <img src="@/assets/images/shopBook1.webp" alt="">
                     <h3>
                         <p>15.6" i5 8G MX110</p>
                         <p>全面均衡的国民轻薄本</p>
@@ -212,7 +212,7 @@
                     </h3>
                 </div>
                 <div class="shopList-con">
-                    <img src="../assets/images/shopBook2.webp" alt="">
+                    <img src="@/assets/images/shopBook2.webp" alt="">
                     <h3>
                         <p>13.3" i7 MX150 灰色</p>
                         <p>四核i7处理器 高性能独显</p>
@@ -220,7 +220,7 @@
                     </h3>
                 </div>
                 <div class="shopList-con">
-                    <img src="../assets/images/shopBook3.webp" alt="">
+                    <img src="@/assets/images/shopBook3.webp" alt="">
                     <h3>
                         <p>15.6" i7 16G MX150</p>
                         <p>高性能独显 第八代处理器</p>
@@ -228,7 +228,7 @@
                     </h3>
                 </div>
                 <div class="shopList-con">
-                    <img src="../assets/images/shopBook4.webp" alt="">
+                    <img src="@/assets/images/shopBook4.webp" alt="">
                     <h3>
                         <p>13.3" i7 MX150 银色</p>
                         <p>四核i7处理器 高性能独显</p>
@@ -236,7 +236,7 @@
                     </h3>
                 </div>
                 <div class="shopList-con">
-                    <img src="../assets/images/shopBook5.webp" alt="">
+                    <img src="@/assets/images/shopBook5.webp" alt="">
                     <h3>
                         <p>游戏本i7 GTX1060</p>
                         <p>性能怪兽 信仰级游戏体验</p>
@@ -244,7 +244,7 @@
                     </h3>
                 </div>
                 <div class="shopList-con">
-                    <img src="../assets/images/shopBook6.webp" alt="">
+                    <img src="@/assets/images/shopBook6.webp" alt="">
                     <h3>
                         <p>12.5" m3 128G 银色</p>
                         <p>轻薄长续航 超窄边框</p>
