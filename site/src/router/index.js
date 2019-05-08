@@ -2,10 +2,10 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Shopcar from "../views/Shopcar";
 import Main from "../views/Main";
-import My from "../views/User"
+import User from "../views/User"
 import Shopcont from "../components/shopCont"
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
   mode: 'history',
@@ -38,7 +38,7 @@ export default new Router({
     {
       path:"/user",
       name:"user",
-      component:My
+      component:User
     }
   ]
 })

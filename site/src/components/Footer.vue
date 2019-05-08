@@ -12,7 +12,7 @@
             <i class="iconfont icon-gouwuche1"></i>
             <p>购物车</p>
         </router-link>
-        <router-link to="/my" class="title">
+        <router-link to="/user" class="title">
             <i class="iconfont icon-wodedangxuan"></i>
             <p>我的</p>
         </router-link>
@@ -26,7 +26,17 @@
 </script>
 
 <style scoped>
- 
+ #footer{
+     position: fixed;
+     z-index: 9999;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     background: #fff;
+     transition: transform .2s ease-out;
+     box-shadow: 0 3px 14px 2px rgba(0,0,0,.12);
+     font-size: .12rem;
+ }
   /* footer */
   #footer{
     height:.495rem;
