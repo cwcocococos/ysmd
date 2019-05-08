@@ -70,7 +70,7 @@
                 </div>
             </div>
             <div class="advMain">
-                <div class="main-left">
+                <div class="main-left" @click="Shopcont">
                     <img src="@/assets/images/adv1.jpg" alt="">
                 </div>
                 <div class="main-right">
@@ -258,7 +258,17 @@
 
 <script>
     export default {
-        name: "Select"
+        name: "Select",
+        methods:{ //跳转页面
+
+            Shopcont(){
+
+                this.$router.push({ path:'/shop'  })
+
+            }
+
+        }
+
     }
 </script>
 
