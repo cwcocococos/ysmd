@@ -12,7 +12,7 @@ export default new Router({
   base: process.env.BASE_URL,
   routes: [
     {
-      path: '/',
+      path: '/main',
       name: 'main',
       component: Main
 

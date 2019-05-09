@@ -1,18 +1,22 @@
 <template>
     <div id="footer">
-        <router-link to="/" class="title alive">
+        <router-link tag="li"  :to="{path:'/main'}" class="title" >
             <i class="iconfont icon-shouye"></i>
             <p>首页</p>
         </router-link>
-        <router-link to="/sort" class="title">
+        <router-link tag="li"  :to="{path:'/sort'}"class="title">
             <i class="iconfont icon-fenlei"></i>
             <p>分类</p>
         </router-link>
-        <router-link to="/shopcar" class="title">
+        <router-link tag="li"  :to="{path:'/shopcar'}"class="title">
             <i class="iconfont icon-gouwuche1"></i>
             <p>购物车</p>
         </router-link>
+<<<<<<< Updated upstream
         <router-link to="/user" class="title">
+=======
+        <router-link tag="li"  :to="{path:'/my'}" class="title">
+>>>>>>> Stashed changes
             <i class="iconfont icon-wodedangxuan"></i>
             <p>我的</p>
         </router-link>
@@ -21,11 +25,19 @@
 
 <script>
     export default {
-        name: "Footer"
+        name: "Footer",
+        data () {
+            return {
+            }
+        },
+        methods: {
+        }
+
     }
 </script>
 
 <style scoped>
+<<<<<<< Updated upstream
  #footer{
      position: fixed;
      z-index: 9999;
@@ -37,6 +49,9 @@
      box-shadow: 0 3px 14px 2px rgba(0,0,0,.12);
      font-size: .12rem;
  }
+=======
+ @import "../../public/iconfont/iconfont.css";
+>>>>>>> Stashed changes
   /* footer */
   #footer{
     height:.495rem;
@@ -51,17 +66,25 @@
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    color:#cdccc7
+      color:#767676;
+
+      /*color:#cdccc7*/
   }
-  #footer .title .iconfont{
+  #footer .title i{
     display:block;
     font-size:.18rem;
-    color:#767676;
+
   }
-  #footer .alive p{
-    color:#ed7d33;
+  .router-link-active p{
+      color:#ed7d33;
   }
-  #footer .alive .iconfont{
-    color:#ed7d33;
-  }
+ .router-link-active i{
+     color:#ed7d33;
+ }
+  /*#footer .alive p{*/
+    /*color:#ed7d33;*/
+  /*}*/
+  /*#footer .alive .iconfont{*/
+    /*color:#ed7d33;*/
+  /*}*/
 </style>

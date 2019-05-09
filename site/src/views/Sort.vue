@@ -503,7 +503,8 @@
     }
     article{
         display: flex;
-
+        overflow: auto;
+        height: 5.75rem;
     }
     .left{
         height: 5.75rem;
@@ -524,8 +525,10 @@
     .right{
         width:3rem;
         margin-left: 0.75rem;
+
     }
     .both{
+
         display: flex;
         flex-direction: column;
         align-items: center;
