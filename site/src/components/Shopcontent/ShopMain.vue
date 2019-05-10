@@ -10,14 +10,14 @@
                     <h4>￥3299</h4>
                     <div>
                         <ul>
-                            <li><img src="../assets/images/2.png" alt=""></li>
-                            <li><img src="../assets/images/2.png" alt=""></li>
-                            <li><img src="../assets/images/2.png" alt=""></li>
-                            <li><img src="../assets/images/2.png" alt=""></li>
-                            <li><img src="../assets/images/2.png" alt=""></li>
-                            <li><img src="../assets/images/2.png" alt=""></li>
-                            <li><img src="../assets/images/2.png" alt=""></li>
-                            <li><img src="../assets/images/2.png" alt=""></li>
+                            <li><img src="../../assets/images/2.png" alt=""></li>
+                            <li><img src="../../assets/images/2.png" alt=""></li>
+                            <li><img src="../../assets/images/2.png" alt=""></li>
+                            <li><img src="../../assets/images/2.png" alt=""></li>
+                            <li><img src="../../assets/images/2.png" alt=""></li>
+                            <li><img src="../../assets/images/2.png" alt=""></li>
+                            <li><img src="../../assets/images/2.png" alt=""></li>
+                            <li><img src="../../assets/images/2.png" alt=""></li>
                         </ul>
                     </div>
                 </div>
@@ -79,7 +79,7 @@
                     </h3>
                 </div>
                 <div class="con3">
-                    <li><img src="../assets/images/3.png" alt=""></li>
+                    <li><img src="../../assets/images/3.png" alt=""></li>
                 </div>
             </div>
         </article>

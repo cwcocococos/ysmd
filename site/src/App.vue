@@ -14,8 +14,8 @@
 
 <script>
 import Footer from "@/components/Footer"
-import Shopfooter from "@/components/Shopfooter"
-import ShopMain from "@/components/ShopMain"
+import Shopfooter from "@/components/Shopcontent/Shopfooter"
+import ShopMain from "@/components/Shopcontent/ShopMain"
 export default {
   name:'app',
   components :{

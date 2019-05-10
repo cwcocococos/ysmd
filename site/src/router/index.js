@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import Shopcar from "../views/Shopcar";
 import Main from "../views/Main";
 import User from "../views/User"
-import Shopcont from "../components/shopCont"
+import Shopcont from "../components/Shopcontent/shopCont"
 
 Vue.use(Router);
 

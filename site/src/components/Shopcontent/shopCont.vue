@@ -4,10 +4,10 @@
             <div class="picCon">
                 <div>
                     <ul>
-                        <li><img src="../assets/images/LB1.webp" alt=""></li>
-                        <li><img src="../assets/images/LB2.jpg" alt=""></li>
-                        <li><img src="../assets/images/LB3.webp" alt=""></li>
-                        <li><img src="../assets/images/LB4.webp" alt=""></li>
+                        <li><img src="../../assets/images/LB1.webp" alt=""></li>
+                        <li><img src="../../assets/images/LB2.jpg" alt=""></li>
+                        <li><img src="../../assets/images/LB3.webp" alt=""></li>
+                        <li><img src="../../assets/images/LB4.webp" alt=""></li>
                     </ul>
                 </div>
             </div>
