@@ -16,10 +16,10 @@
                 </div>
                 <div class="nav-items"></div>
                 <div class="nav">
-                    <router-link to="/" class="nav-item active">
+                    <router-link to="/main" class="nav-item">
                         <span>推荐</span>
                     </router-link>
-                    <router-link to="/main/sj" class="nav-item">
+                    <router-link to="/sj" class="nav-item">
                         <span>手机</span>
                     </router-link>
                     <router-link to="/zn" class="nav-item">
@@ -38,6 +38,7 @@
                         <span>生活周边</span>
                     </router-link>
                     <div class="nav-item-exit"></div>
+                    <router-view/>
                 </div>
             </div>
         </header>
@@ -46,7 +47,7 @@
 
 <script>
     export default {
-        name: "Home"
+        name: "Header"
     }
 </script>
 
@@ -117,8 +118,13 @@
         padding-right: .76rem;
         display: inline-block;
     }
-    header .nav-wrap .nav .active span{
+    /* header .nav-wrap .nav .active span{
+        border-bottom:2px solid #f36f1c;
+        color:#f36f1c
+    } */
+    .router-link-active span{
         border-bottom:2px solid #f36f1c;
         color:#f36f1c
     }
+
 </style>

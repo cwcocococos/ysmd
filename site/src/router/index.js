@@ -4,6 +4,7 @@ import Shopcar from "../views/Shopcar";
 import Main from "../views/Main";
 import User from "../views/User"
 import Shopcont from "../components/shopCont"
+import second from "@/router/main"
 
 Vue.use(Router);
 
@@ -11,11 +12,12 @@ export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [
+    ...second,
     {
       path: '/main',
+      alias:"/",
       name: 'main',
       component: Main
-
     },
     {
       path: '/sort',

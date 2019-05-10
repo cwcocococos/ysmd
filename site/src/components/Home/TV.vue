@@ -1,10 +1,16 @@
 <template>
-    <div>电视</div>
+    <div>
+        <Header></Header>
+    </div>
 </template>
 
 <script>
+import Header from "@/components/Home/Header.vue"
     export default {
-        name: "TV"
+        name: "TV",
+        components:{
+            Header
+        }
     }
 </script>
 

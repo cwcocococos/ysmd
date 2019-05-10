@@ -1,8 +1,6 @@
 <template>
     <div class="home">
-        <div>
-            <Home></Home>
-        </div>
+        <Header></Header>
         <div>
             <Select></Select>
         </div>
@@ -11,12 +9,12 @@
 </template>
 
 <script>
-    import Home from "@/components/Home/Home.vue"
+    import Header from "@/components/Home/Header.vue"
     import Select from "@/components/Home/Select.vue"
     export default {
         name: "Main",
         components: {
-            Home,
+            Header,
             Select
         }
     }

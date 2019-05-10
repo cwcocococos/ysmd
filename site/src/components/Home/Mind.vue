@@ -1,10 +1,16 @@
 <template>
-    <div>智能</div>
+    <div>
+        <Header></Header>
+    </div>
 </template>
 
 <script>
+import Header from "@/components/Home/Header.vue"
     export default {
-        name: "Mind"
+        name: "Mind",
+        components:{
+            Header
+        }
     }
 </script>
 

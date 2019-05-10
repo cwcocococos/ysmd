@@ -1,10 +1,16 @@
 <template>
-    <div>生活</div>
+    <div>
+        <Header></Header>
+    </div>
 </template>
 
 <script>
+import Header from "@/components/Home/Header.vue"
     export default {
-        name: "Life"
+        name: "Life",
+        components:{
+            Header
+        }
     }
 </script>
 

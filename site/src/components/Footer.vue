@@ -4,11 +4,11 @@
             <i class="iconfont icon-shouye"></i>
             <p>首页</p>
         </router-link>
-        <router-link tag="li"  :to="{path:'/sort'}"class="title">
+        <router-link tag="li"  :to="{path:'/sort'}" class="title">
             <i class="iconfont icon-fenlei"></i>
             <p>分类</p>
         </router-link>
-        <router-link tag="li"  :to="{path:'/shopcar'}"class="title">
+        <router-link tag="li"  :to="{path:'/shopcar'}" class="title">
             <i class="iconfont icon-gouwuche1"></i>
             <p>购物车</p>
         </router-link>
