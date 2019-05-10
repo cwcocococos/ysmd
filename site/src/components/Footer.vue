@@ -12,7 +12,7 @@
             <i class="iconfont icon-gouwuche1"></i>
             <p>购物车</p>
         </router-link>
-        <router-link tag="li"  :to="{path:'/my'}" class="title">
+        <router-link tag="li"  :to="{path:'/user'}" class="title">
             <i class="iconfont icon-wodedangxuan"></i>
             <p>我的</p>
         </router-link>
