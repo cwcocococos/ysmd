@@ -1,6 +1,22 @@
 <template>
+    <div class="Shops">
     <section>
         <article>
+            <div class="picCon">
+                <div>
+                    <i class="iconfont icon-xiazai6" @click="Mind"></i>
+                    <ul>
+                        <li><img src="../../assets/images/LB1.webp" alt=""></li>
+                        <!--<li><img src="../../assets/images/LB2.jpg" alt=""></li>-->
+                        <!--<li><img src="../../assets/images/LB3.webp" alt=""></li>-->
+                        <!--<li><img src="../../assets/images/LB4.webp" alt=""></li>-->
+                    </ul>
+                </div>
+            </div>
+            <div class="sellCon">
+                <h2>4月30日手机全场 3期免息</h2>
+                <p>火爆进行中</p>
+            </div>
             <div class="mainCont">
                 <div class="con1">
                     <h2>小米9</h2>
@@ -84,15 +100,29 @@
             </div>
         </article>
     </section>
+    </div>
 </template>
 
 <script>
     export default {
-        name: "ShopMain"
+        name: "ShopMain",
+        methods:{ //跳转页面
+
+            Mind(){
+
+                this.$router.push({ path:'/main'  })
+
+            }
+
+        }
     }
 </script>
 
 <style scoped>
+.Shops{
+    display: flex;
+    overflow: auto;
+}
     /*section*/
     section{
         flex: 1;
@@ -106,7 +136,56 @@
         display: flex;
         flex-direction: column;
     }
+    .picCon {
+        height: 3.88rem;
+        position: relative;
+    }
+    .picCon i{
+        font-size: 18px;
+        color: white;
+        width: 0.3rem;
+        height: 0.3rem;
+        border-radius: 50%;
+        background: rgba(150,150,150,0.8);
+        display: flex;
+        line-height: 0.3rem;
+        justify-content: center;
+        position: absolute;
+        top: 10px;
+        left: 15px;
+    }
+    .picCon ul{
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+    .picCon ul li{
+        height: 3.88rem;
+        width: 3.75rem;
+        align-items: center;
+    }
+    .picCon ul li img {
+        height: 100%;
+        width: 100%;
+    }
 
+
+    .sellCon{
+        height: 0.47rem;
+        background: linear-gradient(to right,#e64318,#d61818);
+        font-size: 12px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+    }
+    .sellCon p{
+        width: 0.77rem;
+        height: 0.2rem;
+        border: 1px solid white;
+        text-align: center;
+    }
     .con1{
         height: 2.45rem;
         width: 3.73rem;

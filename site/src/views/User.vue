@@ -1,4 +1,5 @@
 <template>
+    <div>
     <div class="app_view_wrapper">
         <div class="view_content">
             <div class="content_header">
@@ -79,12 +80,13 @@
             </ul>
         </div>
     </div>
+    </div>
 </template>
 
 <script>
-    import Indent from "../components/User/Indent"
-    import Purse from "../components/User/Purse"
-    import Slideshow from "../components/User/Slideshow"
+    import Indent from "@/components/User/Indent"
+    import Purse from "@/components/User/Purse"
+    import Slideshow from "@/components/User/Slideshow"
     export default {
         name: "User",
         components:{Indent,Purse,Slideshow}

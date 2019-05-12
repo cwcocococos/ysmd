@@ -1,21 +1,21 @@
 <template>
-    <div>
-        <header>
-            <div class="picCon">
-                <div>
-                    <ul>
-                        <li><img src="../../assets/images/LB1.webp" alt=""></li>
-                        <li><img src="../../assets/images/LB2.jpg" alt=""></li>
-                        <li><img src="../../assets/images/LB3.webp" alt=""></li>
-                        <li><img src="../../assets/images/LB4.webp" alt=""></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="sellCon">
-                <h2>4月30日手机全场 3期免息</h2>
-                <p>火爆进行中</p>
-            </div>
-        </header>
+    <!--<div>-->
+        <!--<header>-->
+            <!--<div class="picCon">-->
+                <!--<div>-->
+                    <!--<ul>-->
+                        <!--<li><img src="../../assets/images/LB1.webp" alt=""></li>-->
+                        <!--<li><img src="../../assets/images/LB2.jpg" alt=""></li>-->
+                        <!--<li><img src="../../assets/images/LB3.webp" alt=""></li>-->
+                        <!--<li><img src="../../assets/images/LB4.webp" alt=""></li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="sellCon">-->
+                <!--<h2>4月30日手机全场 3期免息</h2>-->
+                <!--<p>火爆进行中</p>-->
+            <!--</div>-->
+        <!--</header>-->
         <!--<section>-->
             <!--<article>-->
                 <!--<div class="mainCont">-->
@@ -101,7 +101,7 @@
                 <!--</div>-->
             <!--</article>-->
         <!--</section>-->
-    </div>
+    <!--</div>-->
 </template>
 
 <script>
@@ -112,47 +112,47 @@
 </script>
 
 <style scoped>
-    header{
-        height: 4.35rem;
-        display: flex;
-        flex-direction: column;
-    }
-    .picCon {
-        height: 3.88rem;
-    }
-    .picCon ul{
-        display: flex;
-        width: 100%;
-        height: 100%;
-    }
-    .picCon ul li{
-        height: 3.88rem;
-        width: 3.75rem;
-        position: absolute;
-        align-items: center;
-    }
-    .picCon ul li img {
-        height: 100%;
-        width: 100%;
-    }
+    /*header{*/
+        /*height: 4.35rem;*/
+        /*display: flex;*/
+        /*flex-direction: column;*/
+    /*}*/
+    /*.picCon {*/
+        /*height: 3.88rem;*/
+    /*}*/
+    /*.picCon ul{*/
+        /*display: flex;*/
+        /*width: 100%;*/
+        /*height: 100%;*/
+    /*}*/
+    /*.picCon ul li{*/
+        /*height: 3.88rem;*/
+        /*width: 3.75rem;*/
+        /*position: absolute;*/
+        /*align-items: center;*/
+    /*}*/
+    /*.picCon ul li img {*/
+        /*height: 100%;*/
+        /*width: 100%;*/
+    /*}*/
 
 
-    .sellCon{
-        height: 0.47rem;
-        background: linear-gradient(to right,#e64318,#d61818);
-        font-size: 12px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        color: white;
-    }
-    .sellCon p{
-        width: 0.77rem;
-        height: 0.2rem;
-        border: 1px solid white;
-        text-align: center;
-    }
+    /*.sellCon{*/
+        /*height: 0.47rem;*/
+        /*background: linear-gradient(to right,#e64318,#d61818);*/
+        /*font-size: 12px;*/
+        /*display: flex;*/
+        /*flex-direction: row;*/
+        /*justify-content: space-around;*/
+        /*align-items: center;*/
+        /*color: white;*/
+    /*}*/
+    /*.sellCon p{*/
+        /*width: 0.77rem;*/
+        /*height: 0.2rem;*/
+        /*border: 1px solid white;*/
+        /*text-align: center;*/
+    /*}*/
     /*!*section*!*/
     /*section{*/
         /*flex: 1;*/

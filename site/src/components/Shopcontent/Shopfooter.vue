@@ -21,7 +21,6 @@
 <style scoped>
     footer{
         height: 0.5rem;
-        background: orange;
         display: flex;
         flex-direction: row;
         justify-content: space-around;

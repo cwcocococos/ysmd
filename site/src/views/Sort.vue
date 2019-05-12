@@ -12,7 +12,7 @@
             <article>
                 <div class="left">
                     <ul>
-                        <li>服饰 </li>
+                        <li class="active">服饰 </li>
                         <li>服饰 </li>
                         <li>服饰 </li>
                         <li>服饰 </li>
@@ -454,14 +454,106 @@
 
     </div>
 </template>
+<!--<script src="../../public/jquery-1.11.3.js"></script>-->
+<!--<script>-->
+    <!--var $uList =  $(".left ul li"),-->
+        <!--$oList = $(".both"),-->
+        <!--flag = true;//假设值为true时 滚动条操作代码可以执行-->
+    <!--//1、点击楼层号    显示对应的楼层-->
+    <!--$uList.click(function(){-->
+        <!--flag = false;-->
+        <!--//获取当前操作的楼层号的下标-->
+        <!--var index = $(this).index();-->
+        <!--//根据下标找到对应的楼层-->
+        <!--var $f = $oList.eq(index);-->
+        <!--//获取该楼层相对于body的距离-->
+        <!--var t = $f.offset().top;-->
+        <!--//设置页面滚走的距离为t-->
+        <!--$("body,html").animate( { scrollTop : t } , 2000 ,function(){-->
+            <!--//运动完成后 开启flag的值为true 使滚动条可以操作-->
+            <!--flag = true;-->
+        <!--} );-->
+        <!--//设置当前操作的楼层号的样式-->
+        <!--$(this).addClass("active")-->
+            <!--.end()-->
+            <!--.siblings()-->
+            <!--.removeClass("active");-->
+    <!--})-->
+    <!--//3、操作滚动条  根据可视区窗口最大高度的楼层显示对应的楼层号-->
+    <!--$(window).scroll(function(){-->
+        <!--if( flag ){-->
+            <!--//获取页面滚走的距离-->
+            <!--var sTop = $(document).scrollTop();-->
+            <!--//根据某个条件找到当前在可视区中高度最高的楼层-->
+            <!--//条件 ：  遍历每一个楼层  某个楼层的top-页面滚走的距离 < 楼层高度/2-->
+            <!--var $floor = $oList.filter(function(index){-->
+                <!--//返回满足某个条件的楼层-->
+                <!--return Math.abs($(this).offset().top - sTop) < $(this).height()/2;-->
+            <!--})-->
 
+            <!--//从而得到这个楼层所在的下标-->
+            <!--var index = $floor.index();-->
+            <!--if( index != -1 ){-->
+                <!--//根据楼层的下标找到要高亮显示的楼层号-->
+                <!--$uList.eq(index).addClass("active")-->
+                    <!--.end()-->
+                    <!--.siblings()-->
+                    <!--.removeClass("active");-->
+            <!--}-->
+            <!--//如果页面滚走的距离小于某个值100  将楼层号的样式清空-->
+            <!--if( sTop < 100 ){-->
+                <!--$uList.removeClass("active");-->
+            <!--}-->
+        <!--}-->
+    <!--})-->
+
+<!--</script>-->
 <script>
     export default {
         name: "sort"
+
+        // data(){
+        //     return{
+        //        menus:[
+        //            name
+        //        ]
+        //     }
+        //
+        // },
+        // methods: {
+        //     //获取catgory菜单数据
+        //     async getCategoryData() {
+        //         await categoryData().then((res) => {
+        //             console.log(res)
+        //             this.categoryData = res.data
+        //         })
+        //     },
+        //     //动态设置searc-wrap的高
+        //     setSearchWrapHeight() {
+        //         let $screenHeight = document.documentElement.clientHeight
+        //         this.$refs.searchWrap.style.height = $screenHeight - 200 + 'px'
+        //     },
+        //     //左侧菜单和右侧区域联动
+        //     selectMenu($index) {
+        //         this.currentIndex = $index
+        //     },
+        //     selectProduct(title){
+        //         this.$router.push('./product-list?keyword='+title)
+        //     },
+        //     goHome(){
+        //         console.log(11111)
+        //         this.$router.push('/home')
+        //     }
+        // }
+
     }
+
 </script>
 
 <style scoped>
+    .active{
+        color: #f37d0f;
+    }
     header {
         height: 0.44rem;
         display: flex;
