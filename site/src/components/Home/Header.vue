@@ -3,7 +3,7 @@
         <header>
             <div class="header-top">
                 <i class="iconfont icon-xinxi"></i>
-                <h2>
+                <h2 @click="search">
                     <i class="iconfont icon-sousuo"></i>
                     <p>小米米家照片打印机</p>
                 </h2>
@@ -12,7 +12,7 @@
             <!-- nav -->
             <div class="nav-wrap">
                 <div class="nav-right">
-                    <img src="@/assets/images/floor.jpg" alt="">
+                    <i class="iconfont icon-jiantouxia"></i>
                 </div>
                 <div class="nav-items"></div>
                 <div class="nav">
@@ -47,7 +47,12 @@
 
 <script>
     export default {
-        name: "Header"
+        name: "Header",
+        methods:{
+            search(){
+                this.$router.push({ path:'/search' })
+            }
+        }
     }
 </script>
 
@@ -94,9 +99,13 @@
         background-color: #fefefe;
         box-shadow: -15px 0 15px 0 #fefefe;
         z-index: 99;
+        display:flex;
+        justify-content:center;
+        align-items:center
     }
-    header .nav-wrap .nav-right img{
-        padding:10px 20px
+    header .nav-wrap .nav-right .iconfont{
+       color:#8e8e8e;
+       font-size:.18rem
     }
     header .nav-wrap .nav{
         overflow-x: auto;

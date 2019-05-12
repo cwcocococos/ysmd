@@ -1,0 +1,29 @@
+1、获得商品类别
+    请求方法：get
+    地址：http://127.0.0.1/getShopType
+    传递参数：num：20
+    返回结果
+        db.find("shopTypeList",{limitNum:orderObj{orderBy:-1,addTime:1}})
+
+2、根据商品类别ID获得商品信息
+    请求方法：get
+    地址：http://127.0.0.1/getShopListByType
+    传递参数：shopTypeId：
+    返回结果
+        db.find("shopList",{shopTypeId:})
+
+3、登录
+    请求方法：post
+    地址：http://127.0.0.1/login
+    传递参数：adminName:管理的名字，passWord:管理员的密码
+    返回结果：
+        {
+            ok:1,
+            token:
+        }
+    db.findOne("adminList",{adminName:req.body.adminName,passWord:req.body.passWord})
+
+搜索
+轮播图
+广告
+商品

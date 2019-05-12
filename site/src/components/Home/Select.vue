@@ -260,15 +260,10 @@
     export default {
         name: "Select",
         methods:{ //跳转页面
-
             Shopcont(){
-
                 this.$router.push({ path:'/shop'  })
-
             }
-
         }
-
     }
 </script>
 

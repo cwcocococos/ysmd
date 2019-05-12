@@ -3,7 +3,7 @@
     <div class="main">
       <router-view />
     </div>
-    <Footer v-show="!(path ==='/shop') "></Footer>
+    <Footer v-show="!(path ==='/shop'|| path==='/search') "></Footer>
     <ShopMain v-show="(path ==='/shop')"></ShopMain>
     <Shopfooter v-show="(path ==='/shop')"></Shopfooter>
     <!--<div v-if="isfooter">-->
@@ -19,7 +19,7 @@ import ShopMain from "@/components/Shopcontent/ShopMain"
 export default {
   name:'app',
   components :{
-     Footer,
+    Footer,
     Shopfooter,
     ShopMain
   },

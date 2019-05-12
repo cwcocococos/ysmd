@@ -5,6 +5,7 @@ import Main from "../views/Main";
 import User from "../views/User"
 import second from "@/router/main"
 import Shopcont from "../components/Shopcontent/shopCont"
+import Search from "@/components/Home/Search"
 
 Vue.use(Router);
 
@@ -41,6 +42,11 @@ export default new Router({
       path:"/user",
       name:"user",
       component:User
+    },
+    {
+      path:"/search",
+      name:"search",
+      component:Search
     }
   ]
 })

@@ -1,0 +1,41 @@
+api：服务器
+    module：模块化
+        db.js 连接数据库，增删改查
+        token.js 令牌
+        tool.js 工具、方法
+        upPic.js 上传图片
+    router：路由
+    upload：上传的图片
+    server.js 服务器
+manage：后台管理
+    public：
+    src：
+        assets：存图片
+        bus：
+        components：组件
+            Home:首页中的组件
+            Shopcontent:分类中的组件
+            User:我的中的组件
+            Footer.vue  底部公共组件
+        filters：过滤器
+        router：路由
+        store：vuex
+        views：登录
+        App.vue
+        main.js
+    vue.config.js 设置端口号，自动打开浏览器等
+site：前端渲染
+    public：
+    src：
+        assets：存图片
+        components：组件
+            Home:首页中的组件
+            Shopcontent:分类中的组件
+            User:我的中的组件
+            Footer.vue  底部公共组件
+        router：路由
+        store：vuex
+        views：底部路由（首页、分类、购物车、我的）
+        App.vue
+        main.js
+    vue.config.js 设置端口号，自动打开浏览器等
