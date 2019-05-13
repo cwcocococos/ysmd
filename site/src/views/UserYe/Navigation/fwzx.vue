@@ -1,13 +1,12 @@
 <template>
-
-    <div>1
+    <div>
+        2
     </div>
-
 </template>
 
 <script>
     export default {
-        name: "dfk"
+        name: "fwzx"
     }
 </script>
 

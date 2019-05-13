@@ -6,6 +6,9 @@ import User from "../views/User"
 import second from "@/router/main"
 import Shopcont from "../components/Shopcontent/shopCont"
 import Search from "@/components/Home/Search"
+import Inden from "./User/Inden"
+import Navigation from "./User/Navigation"
+import Purse from "./User/Purse"
 
 Vue.use(Router);
 
@@ -39,14 +42,17 @@ export default new Router({
       component:Shopcar
     },
     {
-      path:"/user",
-      name:"user",
+      path:"/my",
+      name:"my",
       component:User
     },
     {
       path:"/search",
       name:"search",
       component:Search
-    }
+    },
+      ...Inden,
+      ...Navigation,
+      ...Purse
   ]
 })
