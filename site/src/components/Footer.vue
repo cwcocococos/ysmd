@@ -1,6 +1,6 @@
 <template>
     <div id="footer">
-        <router-link tag="li"  :to="{path:'/main'}" class="title" >
+        <router-link tag="li" :to="{path:'/main'}" class="title" >
             <i class="iconfont icon-shouye"></i>
             <p>首页</p>
         </router-link>
