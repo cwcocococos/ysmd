@@ -3,7 +3,7 @@
     <div class="main">
       <router-view />
     </div>
-    <Footer v-show="!(path ==='/shop'|| path==='/search'||path ==='/dfk'||path ==='/dsk'||path ==='/dpj') "></Footer>
+    <Footer v-show="!(path ==='/shop'|| path==='/search'||path ==='/dfk'||path ==='/dsk'||path ==='/dpj'||path ==='/qb') "></Footer>
     <ShopMain v-show="(path ==='/shop')"></ShopMain>
     <Shopfooter v-show="(path ==='/shop')"></Shopfooter>
     <!--<div v-if="isfooter">-->
