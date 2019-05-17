@@ -9,6 +9,7 @@ import Search from "@/components/Home/Search"
 import Inden from "./User/Inden"
 import Navigation from "./User/Navigation"
 import Purse from "./User/Purse"
+import Register from "@/components/Register/register"
 
 Vue.use(Router);
 
@@ -51,7 +52,13 @@ export default new Router({
       name:"search",
       component:Search
     },
-      ...Inden,
+    {
+      path:"/register",
+      name:"register",
+      component:Register,
+    },
+
+    ...Inden,
       ...Navigation,
       ...Purse
   ]

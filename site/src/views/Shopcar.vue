@@ -6,11 +6,11 @@
                 <p>购物车</p><i class="iconfont">&#xe61e;</i>
             </div>
             <div class="denglu">
-                <p>登陆后享受更多优惠</p><a href="#">去登陆></a>
+                <p>登陆后享受更多优惠</p><a href="/register">去登陆></a>
             </div>
         </header>
 
-        <seclion>
+        <section>
             <div class="cart">
                 <i class="iconfont">&#xe604;</i><p>购物车还是空的</p><button>去逛逛</button>
             </div>
@@ -69,7 +69,7 @@
                     <p>￥1599</p>
                 </li>
             </ul>
-        </seclion>
+        </section>
         <div class="Settlement">
             <div class="Choice">
                 <i class="iconfont">&#xe67e;</i> 全选
@@ -167,7 +167,7 @@
         border: 2px solid #868686;
         margin-top:7px;
     }
-    seclion{
+    section{
         flex: 1;
         overflow: auto;
     }
