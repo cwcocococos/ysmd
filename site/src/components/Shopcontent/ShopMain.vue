@@ -3,13 +3,13 @@
     <section>
         <article>
             <div class="picCon">
-                <div>
+                <div class="swiper-container" :options="swiperOption">
                     <i class="iconfont icon-xiazai6" @click="Mind"></i>
-                    <ul>
-                        <li><img src="../../assets/images/LB1.webp" alt=""></li>
-                        <!--<li><img src="../../assets/images/LB2.jpg" alt=""></li>-->
-                        <!--<li><img src="../../assets/images/LB3.webp" alt=""></li>-->
-                        <!--<li><img src="../../assets/images/LB4.webp" alt=""></li>-->
+                    <ul  class="swiper-wrapper">
+                        <li class="swiper-slide"><img src="../../assets/images/LB1.webp" alt=""></li>
+                        <li class="swiper-slide"><img src="../../assets/images/LB2.jpg" alt=""></li>
+                        <li class="swiper-slide"><img src="../../assets/images/LB3.webp" alt=""></li>
+                        <li class="swiper-slide"><img src="../../assets/images/LB4.webp" alt=""></li>
                     </ul>
                 </div>
             </div>
@@ -104,21 +104,45 @@
 </template>
 
 <script>
+    import Swiper from "swiper"
     export default {
         name: "ShopMain",
+        data() {
+            return {
+                swiperOption: {
+                    pagination: {
+                        el: ".swiper-pagination",
+                        type: "progressbar"
+                    }
+                }
+            };
+        },
         methods:{ //跳转页面
-
+            back() {
+                this.$router.back(-1);
+            },
             Mind(){
 
                 this.$router.push({ path:'/main'  })
 
             }
+        },
+        mounted() {
+            var mySwiper = new Swiper(".swiper-container", {
+                autoplay: false,
+                loop: false,
+                pagination:{
+                    el: ".swiper-pagination",
 
+                }
+
+            });
         }
     }
 </script>
 
 <style scoped>
+    @import "../../../node_modules/swiper/dist/css/swiper.css";
 .Shops{
     display: flex;
     overflow: auto;
@@ -151,6 +175,7 @@
         line-height: 0.3rem;
         justify-content: center;
         position: absolute;
+        z-index: 10;
         top: 10px;
         left: 15px;
     }
