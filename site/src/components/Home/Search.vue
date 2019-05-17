@@ -1,7 +1,11 @@
 <template>
     <header>
         <div class="search">
-            <i class="iconfont icon-sousuo"></i>
+            <div class="app-header-left">
+                <a class="app-header-item" @click="goFilm">
+                    <img src="../../assets/images/userzuo.png"/>
+                </a>
+            </div>
             <input data-v-7cbaca4a="" type="search" autocomplete="off" placeholder="搜索商品名称" autocapitalize="off">
             <i class="iconfont icon-sousuo"></i>
         </div>
@@ -45,7 +49,12 @@
 
 <script>
     export default {
-        name: "Search"
+        name: "Search",
+        methods: {
+            goFilm(){
+                this.$router.go(-1)
+            },
+        },
     }
 </script>
 
@@ -60,6 +69,11 @@
     header .iconfont{
         font-size:.18rem
         }
+    .app-header-item{
+        display: block;
+        width: .26rem;
+        margin: 0 .1rem;
+    }
     header .search input{
         width:2.76rem;
         height:.26rem;

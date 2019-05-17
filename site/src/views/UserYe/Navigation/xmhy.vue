@@ -1,12 +1,10 @@
 <template>
-    <div>3
-    <!--<router-view/>-->
-    </div>
+    
 </template>
 
 <script>
     export default {
-        name: "lpk"
+        name: "xmhy"
     }
 </script>
 

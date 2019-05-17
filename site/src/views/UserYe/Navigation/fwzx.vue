@@ -1,12 +1,12 @@
 <template>
-    <div>3
-    <!--<router-view/>-->
+    <div>
+        2
     </div>
 </template>
 
 <script>
     export default {
-        name: "lpk"
+        name: "fwzx"
     }
 </script>
 
