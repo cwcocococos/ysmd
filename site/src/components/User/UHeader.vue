@@ -6,10 +6,8 @@
                     <img src="../../assets/images/userzuo.png"/>
                 </a>
             </div>
-            <div class="app-header-middle"
-                 v-for="item in navArr"
-            >
-                {{item.title}}
+            <div class="app-header-middle">
+                我的订单
             </div>
             <div class="app-header-right">
                 <a class="app-header-item" @click="goSearch">
@@ -44,16 +42,6 @@
 <script>
     export default {
         name: "UHeader",
-        data(){
-            return{
-                navArr:[
-                    {path:'/dfk',name:"dfk",title:"待付款"},
-                    {path:'/dsk',name:"dsk",title:"待收货"},
-                    {path:'/dpj',name:"dpj",title:"待评价"},
-                    {path:'/qb',name:"thx",title:"全部"},
-                ],
-            }
-        },
         methods: {
             goFilm(){
                 this.$router.push({path:'/my'})
@@ -63,6 +51,11 @@
             },
             goShopcar(){
                 this.$router.push({path:'/shopcar'})
+            },
+            change(index){
+                this.showIndex=index;
+                let p=this.navArr[index].path;
+                this.$router.push({path:p})
             },
         },
     }
