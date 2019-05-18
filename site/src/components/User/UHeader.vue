@@ -21,7 +21,7 @@
         <div class="app-view-wrapper">
             <div class="page-order-list app-view app-view-with-header app-view-with-footer">
                 <ul class="tab">
-                    <router-link to="/" class="active">
+                    <router-link to="/qb" class="active">
                         <a onclick="">全部</a>
                     </router-link>
                     <router-link to="/dfk" class="active">
@@ -51,7 +51,12 @@
             },
             goShopcar(){
                 this.$router.push({path:'/shopcar'})
-            }
+            },
+            change(index){
+                this.showIndex=index;
+                let p=this.navArr[index].path;
+                this.$router.push({path:p})
+            },
         },
     }
 </script>

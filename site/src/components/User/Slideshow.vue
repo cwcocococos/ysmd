@@ -1,8 +1,8 @@
 <template>
     <div class="daPrint">
             <el-carousel trigger="click" height="100%">
-                <el-carousel-item v-for="item in 4" :key="item">
-                    <h3 class="small">{{ item }}</h3>
+                <el-carousel-item v-for="item in picArr" :key="item">
+                    <h3 class="small"><img :src="item" alt=""></h3>
                 </el-carousel-item>
             </el-carousel>
     </div>
@@ -10,7 +10,16 @@
 
 <script>
     export default {
-        name: "Slideshow"
+        name: "Slideshow",
+        data(){
+            return {
+                picArr:[
+                    require("../../assets/images/userlb.jpg"),
+                    require("../../assets/images/userlb2.webp"),
+                    require("../../assets/images/userlb3.webp"),
+                ]
+            }
+        }
     }
 </script>
 

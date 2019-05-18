@@ -1,6 +1,6 @@
 <template>
     <div>
-        <UHeader></UHeader>
+
 
     </div>
 </template>

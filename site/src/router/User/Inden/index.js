@@ -1,26 +1,33 @@
+import Qb from "@/views/UserYe/Inden/qb"
 import Dfk from "@/views/UserYe/Inden/dfk"
 import Dpj from "@/views/UserYe/Inden/dpj"
 import Dsk from "@/views/UserYe/Inden/dsk"
 import Thx from "@/views/UserYe/Inden/thx"
+
 export default [
+    {
+        path: '/qb',
+        name: 'qb',
+        component: Qb,
+    },
     {
         path: '/dfk',
         name: 'dfk',
-        component: Dfk
+        component: Dfk,
     },
     {
         path: '/dpj',
         name: 'dpj',
-        component: Dpj
+        component: Dpj,
     },
     {
         path: '/dsk',
         name: 'dsk',
-        component: Dsk
+        component: Dsk,
     },
     {
         path: '/thx',
         name: 'thx',
-        component: Thx
+        component: Thx,
     },
 ]

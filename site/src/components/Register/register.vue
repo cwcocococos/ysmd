@@ -96,7 +96,7 @@
     .VerificationCode a{
         font-size:10px;
         color: #ccc;
-
+        margin-left: -6px;
     }
     .code{
         font-size:14px;

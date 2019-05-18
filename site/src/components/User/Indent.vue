@@ -1,7 +1,7 @@
 <template>
     <div class="Indent">
         <div class="content_indent">
-            <div class="indent_box">
+            <div class="indent_box" @click="goQb">
                 <div class="indent_my">
                     我的订单
                 </div>
@@ -43,6 +43,9 @@
                 let p=this.navArr[index].path;
                 this.$router.push({path:p})
             },
+            goQb(){
+                this.$router.push({path:'/qb'})
+            }
         }
     }
 </script>

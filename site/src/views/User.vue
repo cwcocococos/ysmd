@@ -35,8 +35,22 @@
     import Setting from "../components/User/Setting"
     export default {
         name: "User",
-        components:{Indent,Purse,Slideshow,Navigation,Setting}
-
+        components:{Indent,Purse,Slideshow,Navigation,Setting},
+        // beforeRouteEnter(to,from,next) {
+        //     // console.log(to);
+        //
+        //     if (to.meta.isAuthorization) {
+        //         if (sessionStorage.getItem("isLogin")) {
+        //             next()
+        //         } else {
+        //
+        //             // this.$router.push('/register')
+        //             next('/register');
+        //         }
+        //     } else {
+        //         next();
+        //     }
+        // }
     }
 </script>
 
