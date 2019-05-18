@@ -1,10 +1,16 @@
 import addShopType from "./shop/addShopType"
+import addShop from "./shop/addShop"
 import list from"./shop/list"
 import pageInfo from "./common/pageInfo"
+import pageInfoTwo from "./common/pageInfoTwo"
+import addGoodsType from "./goods/addGoodsType"
 const components = {
     addShopType,
     list,
-    pageInfo
+    pageInfo,
+    addShop,
+    pageInfoTwo,
+    addGoodsType
 }
 export default {
     install(Vue){

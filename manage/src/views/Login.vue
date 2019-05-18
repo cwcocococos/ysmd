@@ -42,6 +42,7 @@
                 this.$refs.adminForm.validate(valid=>{
                     if(valid){// 实现登陆
                         this.$store.dispatch("login",this);
+            
                     }else{
                         this.isLoading = false;
                         this.$message.error('错了哦，请认真填写');
@@ -58,11 +59,9 @@
     margin:250px auto;
     padding:10px 30px;
     border:1px solid #eaeaea;
-    box-shadow:0 0 20px blue;
-    
+    box-shadow:0 0 20px rgb(129, 129, 206);
 }
-.container h3{
-        text-align:center;
-    }
-
+h3{
+    text-align:center;
+}
 </style>

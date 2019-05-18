@@ -1,19 +1,14 @@
 <template>
     <section>
         <article>
-            <div class="banner">
-                <div class="bannerCon">
-                    <ul class="pic">
-                        <li style="z-index:10"><img src="@/assets/images/banner1.jpg" alt="" /></li>
-                        <li><img src="@/assets/images/banner2.jpg" alt=""/></li>
-                        <li><img src="@/assets/images/banner3.jpg" alt="" /></li>
-                    </ul>
-                    <ol style="z-index:15;">
-                        <li class="current"></li>
-                        <li></li>
-                        <li></li>
-                    </ol>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="@/assets/images/banner1.jpg"/></div>
+                    <div class="swiper-slide"><img src="@/assets/images/banner2.jpg"/></div>
+                    <div class="swiper-slide"><img src="@/assets/images/banner3.jpg" alt="" /></div>
                 </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
             </div>
             <figure>
                 <ul>
@@ -257,12 +252,31 @@
 </template>
 
 <script>
+    import Swiper from 'swiper';
     export default {
         name: "Select",
         methods:{ //跳转页面
             Shopcont(){
                 this.$router.push({ path:'/shop'  })
             }
+        },
+        data() {
+            return {
+                swiperOption: {
+                    pagination: {
+                        el: ".swiper-pagination",
+                        type: "progressbar"
+                    }
+                }
+            }
+        },
+        mounted(){
+            new Swiper ('.swiper-container', {
+                autoplay: 1000,
+                loop: true,
+                pagination: '.swiper-pagination', // 如果需要分页器
+                prevButton: '.swiper-button-prev',
+            })
         }
     }
 </script>
@@ -273,43 +287,34 @@
         background:#efefef;
         overflow:auto;
     }
-    /*banner*/
-    .banner{
-        width:100%;
-        height:1.87rem;
-        position:relative;
+    .swiper-container {
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
-    .bannerCon{
-        height:1.87rem;
-        margin:0 auto;
+    .swiper-wrapper {
+        height: 200px;
     }
-    .bannerCon img{
-        height:1.87rem;
+    .swiper-slide img {
+        max-width: 100%;
     }
-    .bannerCon ul li{
-        position:absolute;
-        left:50%;
-        margin-left:-1.875rem;
+    .swiper-slide {
+        text-align: center;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
     }
-    .bannerCon ol{
-        position: absolute;
-        right:.11rem;
-        bottom:.05rem;
-        width: .35rem;
-    }
-    .bannerCon ol li{
-        float: left;
-        width: .05rem;
-        height: .05rem;
-        margin: 0 .025rem;
-        border-radius: 50%;
-        cursor: default;
-        background-color:#f2f2f2;
-    }
-    .bannerCon ol li.current{
-        background-color:#ed145b;
-    }
-
     section figure{
         height:1.94rem;
         background:#fff;

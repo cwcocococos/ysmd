@@ -6,10 +6,10 @@
                     <el-input  placeholder="请输入要搜索的管理员"></el-input>
                 </el-form-item>
                 <el-form-item>
-                    <el-button type="primary" >查询</el-button>
+                    <el-button type="warning" >查询</el-button>
                 </el-form-item>
                 <el-form-item>
-                    <el-button type="primary" @click="dialogFormVisible=true" >添加店铺类别</el-button>
+                    <el-button type="warning" @click="dialogFormVisible=true" >添加店铺类别</el-button>
                 </el-form-item>
             </el-form>
         </div>
@@ -37,6 +37,19 @@
                     <span style="margin-left: 10px">{{ scope.row.loginTime | date }}</span>
                 </template>
             </el-table-column>
+            <!--<el-table-column-->
+            <!--label="姓名"-->
+            <!--width="180">-->
+            <!--<template slot-scope="scope">-->
+            <!--<el-popover trigger="hover" placement="top">-->
+            <!--<p>姓名: {{ scope.row.name }}</p>-->
+            <!--<p>住址: {{ scope.row.address }}</p>-->
+            <!--<div slot="reference" class="name-wrapper">-->
+            <!--<el-tag size="medium">{{ scope.row.name }}</el-tag>-->
+            <!--</div>-->
+            <!--</el-popover>-->
+            <!--</template>-->
+            <!--</el-table-column>-->
             <el-table-column label="操作">
                 <template slot-scope="scope">
                     <el-button
@@ -51,6 +64,16 @@
         </el-table>
 
         <pageInfo actionsName="getAdminLog"></pageInfo>
+        <!--<div class="toolbar">-->
+            <!--<el-pagination-->
+                    <!--background-->
+                    <!--layout="prev, pager, next"-->
+                    <!--@current-change="pageI=>$store.dispatch('getAdminLog',pageI)"-->
+                    <!--:current-page="$store.state.pageInfo.pageIndex"-->
+                    <!--:page-count="$store.state.pageInfo.pageSum"-->
+            <!--&gt;-->
+            <!--</el-pagination>-->
+        <!--</div>-->
         <addShopType :visible.sync="dialogFormVisible"></addShopType>
     </div>
 </template>
@@ -67,6 +90,11 @@
         components:{
             addShopType
         },
+        // methods:{
+        //     currentChange(pageI){
+        //         this.$store.dispatch("getAdminLog",pageI);
+        //     }
+        // },
         mounted(){
             // vuex
             this.$store.commit("SET_INIT");

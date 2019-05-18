@@ -1,3 +1,4 @@
+// import Vue from 'vue/dist/vue.js'
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router/index'
@@ -11,6 +12,9 @@ import bus from "@/bus"
 import components from "@/components"
 
 Vue.use(components);
+Vue.prototype.$axios = axios;
+Vue.prototype.$bus=bus;
+/******************************axios拦截器*********************************************/
 // 为所有的地址增加了ele前缀
 axios.interceptors.request.use(config=>{
     store.commit("SET_IS_LOADING",true);
@@ -31,6 +35,7 @@ axios.interceptors.response.use(({data})=>{
     }
 
 })
+/**********************************路由拦截********************************************************/
 router.beforeEach((to,from,next)=>{
     console.log(to,from,next);
     if(to.meta.isAuthorization){// 是否需要验证token.
@@ -39,6 +44,9 @@ router.beforeEach((to,from,next)=>{
             next();
         }else{
             store.commit("OUT_LOGIN");
+            // 进入到登陆界面
+            // next("/isLogin");
+            // bus.$emit("outLogin");
         }
     }else{// 不验证
         next();
@@ -52,6 +60,12 @@ Vue.use(filters);
 new Vue({
   router,
   store,
+    // template:`
+    // <App></App>
+    // `,
+    // components:{
+    //   App
+    // }
     mounted(){
         bus.$on("outLogin",()=>{
             this.$store.commit("OUT_LOGIN");

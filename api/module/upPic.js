@@ -13,7 +13,7 @@ module.exports.upPic = function (req,picName,cb) {
         var picInfo = file[picName];
         if(picInfo.size > 0){
             let extName = path.extname(picInfo.name);
-            let extArr =[".jpg",".png",".gif"];
+            let extArr =[".jpg",".png",".gif",".webp"];
             if(extArr.includes(extName)){
                 let newPicName = Date.now()+""+tool.getRandom(100000,999999)+extName;
                 fs.rename(picInfo.path,form.uploadDir+"/"+newPicName,function () {

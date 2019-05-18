@@ -23,7 +23,7 @@
     <el-container>
       <el-aside  :style="{width:isCollapse?'auto':'240px'}">
 
-        <el-menu :collapse-transition="false" default-active="1-1" class="el-menu-vertical-demo" :collapse="isCollapse">
+        <el-menu active-text-color="#ffd04b" :collapse-transition="false" default-active="1-1" class="el-menu-vertical-demo" :collapse="isCollapse">
           <el-submenu index="1">
             <template slot="title">
               <i class="el-icon-setting"></i>
@@ -36,12 +36,11 @@
           <el-submenu index="2">
             <template slot="title">
               <i class="el-icon-setting"></i>
-              <span slot="title">店铺管理</span>
+              <span slot="title">商品管理</span>
             </template>
-            <el-menu-item index="2-1" @click="$router.push('/shopTypeList')">店铺类别列表</el-menu-item>
-            <el-menu-item index="2-2" @click="$router.push('/shopList')">店铺列表</el-menu-item>
+            <el-menu-item index="2-1" @click="$router.push('/shopTypeList')">商品类别列表</el-menu-item>
+            <el-menu-item index="2-2" @click="$router.push('/shopList')">商品列表</el-menu-item>
           </el-submenu>
-
 
         </el-menu>
       </el-aside>
@@ -66,44 +65,43 @@
         }
     }
 </script>
-<style >
+<style>
   .el-menu-vertical-demo:not(.el-menu--collapse) {
     width: 240px;
     min-height: 1000px;
   }
   .el-header {
     padding: 0px!important;
-    background: #409EFF;
+    background: orange;
     color: #ffffff;
   }
-  .el-header .info{
+  .info{
       font-size:30px;
       line-height: 60px;
     }
-  .el-header .logo {
+    .logo {
       text-align:center;
       width: 240px;
       font-size: 25px;
       line-height: 60px;
       border-right: 1px solid rgba(238, 241, 146, 0.3);
     }
-  .el-header .adminInfo {
+    .adminInfo {
       float: right;
       text-align: right;
       padding-right: 20px;
       line-height: 60px;
       
     }
-    .el-dropdown-link span{
-        color: #fff;
-        
-      }
     .el-dropdown-link img {
           width: 40px;
           height: 40px;
           border-radius: 50%;
           vertical-align: middle;
         }
+    .el-dropdown-link span {
+        color: #fff;
+      }
   .toolbar {
     background:#f4f4f4;
     padding:10px;

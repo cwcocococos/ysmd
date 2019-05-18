@@ -20,6 +20,18 @@ const mutations = {
     }
 }
 const actions = {
+    // 完成异步请求，实现登陆功能
+    // login(content,obj){
+    //     axios.post("login",obj.parmas)
+    //         .then(data=>{
+    //             obj.cb(data);
+    //         })
+    //     // axios.post("login",{
+    //     //     adminName:params.adminName,
+    //     //     passWord:params.passWord
+    //     // })
+    // }
+
     login({commit},that){
         axios.post("login",that.adminForm)
             .then(data=>{
@@ -32,10 +44,16 @@ const actions = {
                 }
                 console.log(data);
             })
+        // axios.post("login",{
+        //     adminName:params.adminName,
+        //     passWord:params.passWord
+        // })
     },
 
     // 获得管理员日志
     getAdminLog({commit,rootState},params){
+        // commit("SET_IS_LOADING",true);
+        // console.log()
         axios.get("adminLog",{
             params
 

@@ -1,19 +1,270 @@
 <template>
-    <div>
+    <div class="Note">
         <Header></Header>
+        <div id="main">
+            <section>
+                <article>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="@/assets/images/bj-banner.jpg"/></div>
+                            <div class="swiper-slide"><img src="@/assets/images/bj-banner2.jpg"/></div>
+                        </div>
+                        <!-- 如果需要分页器 -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="sj-tab">
+                        <img src="@/assets/images/bj-tab.webp" alt="">
+                    </div>
+                    <div class="sj-adv">
+                        <img src="@/assets/images/bj-adv.webp" alt="">
+                        <div class="info">
+                            <div class="sj-top">
+                                <div class="name">小米笔记本15.6" 2019款 独显版 </div>
+                                <div class="price">￥3799<span>起</span></div>
+                            </div>
+                            <div class="sj-bottom">
+                                <div class="brief">全面均衡的国民轻薄本</div>
+                                <div class="buybtn">立即购买</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sj-shopList">
+                        <div class="shopList-con">
+                            <img src="@/assets/images/sj-shopList1.webp" alt="">
+                            <h3>
+                                <p>黑鲨游戏手机2</p>
+                                <p>骁龙855，立体触控</p>
+                                <p>￥3199起</p>
+                                <div class="buybtn">立即购买</div>
+                            </h3>
+                        </div>
+                        <div class="shopList-con">
+                            <img src="@/assets/images/sj-shopList2.webp" alt="">
+                            <h3>
+                                <p>Redmi Note 7</p>
+                                <p>4800万拍照 长续航</p>
+                                <p>￥999起</p>
+                                <div class="buybtn">立即购买</div>
+                            </h3>
+                        </div>
+                        <div class="shopList-con">
+                            <img src="@/assets/images/sj-shopList3.webp" alt="">
+                            <h3>
+                                <p>小米9</p>
+                                <p>骁龙855，索尼4800万三摄</p>
+                                <p>￥2999起</p>
+                                <div class="buybtn">立即购买</div>
+                            </h3>
+                        </div>
+                        <div class="shopList-con">
+                            <img src="@/assets/images/sj-shopList4.webp" alt="">
+                            <h3>
+                                <p>小米9se</p>
+                                <p>索尼4800万三摄，骁龙712</p>
+                                <p>￥1599起</p>
+                                <div class="buybtn">立即购买</div>
+                            </h3>
+                        </div>
+                        <div class="shopList-con">
+                            <img src="@/assets/images/sj-shopList5.webp" alt="">
+                            <h3>
+                                <p>Redmi Note 7</p>
+                                <p>索尼4800万三摄，骁龙712</p>
+                                <p>￥3999起</p>
+                                <div class="buybtn">立即购买</div>
+                            </h3>
+                        </div>
+                        <div class="shopList-con">
+                            <img src="@/assets/images/sj-shopList6.webp" alt="">
+                            <h3>
+                                <p>小米9 透明尊享版</p>
+                                <p>骁龙855，索尼4800万三摄	</p>
+                                <p>￥1299起</p>
+                                <div class="buybtn">立即购买</div>
+                            </h3>
+                        </div>
+                        <div class="shopList-con">
+                            <img src="@/assets/images/sj-shopList7.webp" alt="">
+                            <h3>
+                                <p>小米8青春版</p>
+                                <p>潮流轻旗舰，超级夜景模式</p>
+                                <p>￥1599起</p>
+                                <div class="buybtn">立即购买</div>
+                            </h3>
+                        </div>
+                        <div class="shopList-con">
+                            <img src="@/assets/images/sj-shopList8.jpg" alt="">
+                            <h3>
+                                <p>小米8se</p>
+                                <p>小屏旗舰机，AI超感光双摄</p>
+                                <p>￥1999起</p>
+                                <div class="buybtn">立即购买</div>
+                            </h3>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </div>
     </div>
 </template>
 
 <script>
 import Header from "@/components/Home/Header.vue"
+import Swiper from 'swiper';
     export default {
         name: "Note",
         components:{
             Header
+        },
+        data() {
+            return {
+                swiperOption: {
+                    pagination: {
+                        el: ".swiper-pagination",
+                        type: "progressbar"
+                    }
+                }
+            }
+        },
+        mounted(){
+            new Swiper ('.swiper-container', {
+                autoplay: 1000,
+                loop: true,
+                pagination: '.swiper-pagination', // 如果需要分页器
+                prevButton: '.swiper-button-prev',
+            })
         }
     }
 </script>
 
 <style scoped>
-
+    .Note{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 100%;
+    }
+    #main{overflow: auto;height: 100%}
+    section{
+        flex:1;
+        background:#efefef;
+        overflow:auto;
+    }
+    .swiper-container {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-wrapper {
+        height: 2.42rem;
+    }
+    .swiper-slide img {
+        max-width: 100%;
+    }
+    .swiper-slide {
+        text-align: center;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .sj-tab img{
+        height:0.791rem;
+    }
+    .sj-adv{
+        height:3rem;
+        padding:0 0.062rem;
+        background: #c10069;
+    }
+    .sj-adv img:nth-child(1){
+        height: 2.27rem;
+    }
+    .info{
+        height: 0.733rem;
+        font-size:0.16rem;
+        padding:0.10rem 0.14rem;
+        background: #fff;
+    }
+    .info .sj-top{
+        display: flex;
+        justify-content:space-between;
+        height:0.218rem;
+        line-height:0.218rem;
+    }
+    .info .sj-top .price{
+        color: #EA625B;
+        font-size:0.14rem;
+    }
+    .info .sj-bottom{
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+    .info .sj-bottom .brief{
+        height:0.15rem;
+        font-size:0.12rem;
+        color:rgba(0,0,0,0.54);
+    }
+    .info .sj-bottom .buybtn{
+        width: 1.04rem;
+        background: #ea625b;
+        border-radius: .05rem;
+        text-align: center;
+        color: #fff;
+        font-size: .12rem;
+        padding: .08rem 0;
+        font-weight: 700;
+    }
+    .sj-shopList{
+        padding:0 0.0625rem;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:space-between;
+        background:#c10069;
+    }
+    .sj-shopList .shopList-con{
+        width:1.78rem;
+        height:2.53rem;
+        background: #fff;
+        margin-top:0.055rem;
+    }
+    .sj-shopList .shopList-con img{
+        width:1.78rem;
+    }
+    .sj-shopList .shopList-con h3{
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    .sj-shopList .shopList-con h3 p:nth-child(1){
+        font-size:.14rem;
+    }
+    .sj-shopList .shopList-con h3 p:nth-child(2){
+        font-size:.12rem;
+        color:rgba(0,0,0,0.54);
+    }
+    .sj-shopList .shopList-con h3 p:nth-child(3){
+        font-size:.14rem;
+        color: #ea625b;
+    }
+    .sj-shopList .shopList-con h3 .buybtn{
+        width: 1.04rem;
+        background: #ea625b;
+        border-radius: .05rem;
+        text-align: center;
+        color: #fff;
+        font-size: .12rem;
+        padding: .08rem 0;
+        font-weight: 700;
+    }
 </style>

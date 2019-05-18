@@ -4,8 +4,14 @@
         <div id="main">
             <section>
                 <article>
-                    <div class="sj-banner">
-                        <img src="@/assets/images/sj-banner.jpg" alt="">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="@/assets/images/sj-banner.jpg"/></div>
+                            <div class="swiper-slide"><img src="@/assets/images/sj-banner2.jpg"/></div>
+                            <div class="swiper-slide"><img src="@/assets/images/sj-banner3.jpg" alt="" /></div>
+                        </div>
+                        <!-- 如果需要分页器 -->
+                        <div class="swiper-pagination"></div>
                     </div>
                     <div class="sj-tab">
                         <img src="@/assets/images/sj-tab.webp" alt="">
@@ -105,10 +111,29 @@
 
 <script>
 import Header from "@/components/Home/Header.vue"
+import Swiper from 'swiper';
     export default {
         name: "Phone",
         components:{
             Header
+        },
+        data() {
+            return {
+                swiperOption: {
+                    pagination: {
+                        el: ".swiper-pagination",
+                        type: "progressbar"
+                    }
+                }
+            }
+        },
+        mounted(){
+            new Swiper ('.swiper-container', {
+                autoplay: 1000,
+                loop: true,
+                pagination: '.swiper-pagination', // 如果需要分页器
+                prevButton: '.swiper-button-prev',
+            })
         }
     }
 </script>
@@ -126,8 +151,33 @@ section{
     background:#efefef;
     overflow:auto;
 }
-.sj-banner img{
-    height:1.875rem;
+.swiper-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.swiper-wrapper {
+    height: 1.87rem;
+}
+.swiper-slide img {
+    max-width: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
 }
 .sj-tab img{
     height:0.791rem;

@@ -17,16 +17,17 @@
 
                         :on-success = "upSuccess"
                         list-type="picture">
-                    <el-button size="small" type="primary">点击上传</el-button>
+                    <el-button size="small" type="warning">点击上传</el-button>
                     <div slot="tip" class="el-upload__tip">只能上传jpg/png文件，且不超过500kb</div>
                 </el-upload>
             </el-form-item>
         </el-form>
         <div slot="footer" class="dialog-footer">
             <el-button @click="$emit('update:visible',false)">取 消</el-button>
-            <el-button type="primary" @click="addShopType">确 定</el-button>
+            <el-button type="warning" @click="addShopType">确 定</el-button>
         </div>
     </el-dialog>
+
 </template>
 
 <script>
@@ -52,6 +53,9 @@
                     this.$refs.myForm.resetFields();
                     // 清空上传的文件
                     this.$refs.upload.clearFiles();
+                    this.$store.dispatch("getShopTypeList",{
+                        pageIndex:1
+                    })
                     this.$emit('update:visible',false);
                 }else{
                     this.$message.error(res.msg);
