@@ -24,7 +24,11 @@
         </el-form>
         <div slot="footer" class="dialog-footer">
             <el-button @click="$emit('update:visible',false)">取 消</el-button>
+<<<<<<< Updated upstream
             <el-button type="primary">确 定</el-button>
+=======
+            <el-button type="primary"  @click="addGoodsType">确 定</el-button>
+>>>>>>> Stashed changes
         </div>
     </el-dialog>
 
@@ -56,6 +60,31 @@
                     this.shopList=data.shopList;
                 })
 
+<<<<<<< Updated upstream
+=======
+            },
+            upSuccess(res){
+                if(res.ok === 1){
+                    this.$message({
+                        message: '恭喜你，添加店铺类别成功！',
+                        type: 'success'
+                    });
+                    // 清空表单
+                    this.$refs.myForm.resetFields();
+                    // 清空上传的文件
+                    this.$refs.upload.clearFiles();
+                    this.$store.dispatch("getShopTypeList",{
+                        pageIndex:1
+                    })
+                    this.$emit('update:visible',false);
+                }else{
+                    this.$message.error(res.msg);
+                }
+                console.log(res);
+            },
+            addShopType(){
+                this.$refs.upload.submit();
+>>>>>>> Stashed changes
             }
         },
         mounted(){

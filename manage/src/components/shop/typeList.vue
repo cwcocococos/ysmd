@@ -35,7 +35,11 @@
                 </template>
             </el-table-column>
             <el-table-column
+<<<<<<< Updated upstream
                     label="商品类别的图片">
+=======
+                    label="店铺类别的图片">
+>>>>>>> Stashed changes
                 <template slot-scope="scope">
                     <img :src="$store.state.config.baseUrl+scope.row.shopTypePic" alt="">
                 </template>
@@ -60,14 +64,38 @@
                     >删除</el-button>
                     <el-button
                             size="mini"
+<<<<<<< Updated upstream
                             type="warning"
                             @click="shop_visible=true;shopTypeId=scope.row._id"
                     >添加商品</el-button>
+=======
+                            type="primary"
+                            @click="shop_visible=true;shopTypeId=scope.row._id"
+                    >添加店铺</el-button>
+>>>>>>> Stashed changes
                 </template>
             </el-table-column>
         </el-table>
 
         <pageInfo actionsName="getShopTypeList" :params="{search}"></pageInfo>
+<<<<<<< Updated upstream
+=======
+        <!--<div class="toolbar">-->
+            <!--<el-pagination-->
+                    <!--background-->
+                    <!--layout="prev, pager, next"-->
+                    <!--@current-change="pageI=>$store.dispatch('getShopTypeList',pageI)"-->
+                    <!--:current-page="$store.state.pageInfo.pageIndex"-->
+                    <!--:page-count="$store.state.pageInfo.pageSum"-->
+            <!--&gt;-->
+            <!--</el-pagination>-->
+        <!--</div>-->
+
+
+
+
+
+>>>>>>> Stashed changes
         <addShopType  :visible.sync="dialogFormVisible" ></addShopType>
         <!--<addShop v-if="shop_visible" :visible.sync="shop_visible" :shopTypeId="shopTypeId"></addShop>-->
         <addShop  :visible.sync="shop_visible" :shopTypeId="shopTypeId"></addShop>

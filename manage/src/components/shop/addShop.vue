@@ -1,4 +1,5 @@
 <template>
+<<<<<<< Updated upstream
     <el-dialog title="添加商品" :visible="visible"  @update:visible="v=>$emit('update:visible',v)">
         <el-form :model="form" ref="myForm">
             <el-form-item prop="shopTypeName" label="商品名称" label-width="150px">
@@ -10,6 +11,13 @@
             <el-form-item prop="shopTypeName" label="商品价格" label-width="150px">
                 <el-input v-model="form.shopPrice" style="width:300px;" autocomplete="off"></el-input>
             </el-form-item>
+=======
+    <el-dialog title="添加店铺" :visible="visible"  @update:visible="v=>$emit('update:visible',v)">
+        <el-form :model="form" ref="myForm">
+            <el-form-item prop="shopTypeName" label="店铺名称" label-width="150px">
+                <el-input v-model="form.shopName" style="width:300px;" autocomplete="off"></el-input>
+            </el-form-item>
+>>>>>>> Stashed changes
             <el-form-item prop="shopTypeId" label="店铺类别" label-width="150px">
                 <el-select v-model="form.shopTypeId" placeholder="请选择">
                     <el-option v-for="item in $store.state.shop.allShopTypeList"
@@ -30,14 +38,22 @@
                         :limit="1"
                         :on-success = "upSuccess"
                         list-type="picture">
+<<<<<<< Updated upstream
                     <el-button size="small" type="warning">点击上传</el-button>
+=======
+                    <el-button size="small" type="primary">点击上传</el-button>
+>>>>>>> Stashed changes
                     <div slot="tip" class="el-upload__tip">只能上传jpg/png文件，且不超过500kb</div>
                 </el-upload>
             </el-form-item>
         </el-form>
         <div slot="footer" class="dialog-footer">
             <el-button @click="$emit('update:visible',false)">取 消</el-button>
+<<<<<<< Updated upstream
             <el-button type="warning" @click="addShop">确 定</el-button>
+=======
+            <el-button type="primary" @click="addShop">确 定</el-button>
+>>>>>>> Stashed changes
         </div>
     </el-dialog>
 
@@ -52,9 +68,13 @@
             return {
                 form:{
                     shopName:"",
+<<<<<<< Updated upstream
                     shopTypeId:"",
                     shopPrice:"",
                     shopContent:""
+=======
+                    shopTypeId:""
+>>>>>>> Stashed changes
                 }
             }
         },

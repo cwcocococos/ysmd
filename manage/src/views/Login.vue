@@ -1,6 +1,6 @@
 <template>
     <el-form :model = "adminForm" :rules = "rules" ref="adminForm" class="container">
-        <h3>小米商城后台管理系统</h3>
+        <h3>饿了么后台管理系统</h3>
         <el-form-item prop="adminName">
             <el-input v-model="adminForm.adminName" placeholder="请输入管理员账号"></el-input>
         </el-form-item>
@@ -41,8 +41,25 @@
                 this.isLoading = true;
                 this.$refs.adminForm.validate(valid=>{
                     if(valid){// 实现登陆
+                        /*
+                        * 1、创建一个actions
+                        *      actions当中调用登陆接口，成功以后修改用户的登陆状态
+                        * */
                         this.$store.dispatch("login",this);
+<<<<<<< Updated upstream
             
+=======
+                        // this.$store.dispatch("login",{
+                        //     parmas:this.adminForm,
+                        //     cb(data){
+                        //
+                        //     }
+                        // });
+                        // this.$store.dispatch("login",{
+                        //     adminName:this.adminForm.adminName,
+                        //     passWord:this.adminForm.passWord
+                        // });
+>>>>>>> Stashed changes
                     }else{
                         this.isLoading = false;
                         this.$message.error('错了哦，请认真填写');
@@ -53,15 +70,24 @@
     }
 </script>
 
-<style scoped>
+<style scoped lang="less">
 .container{
     width:350px;
     margin:250px auto;
     padding:10px 30px;
     border:1px solid #eaeaea;
+<<<<<<< Updated upstream
     box-shadow:0 0 20px rgb(129, 129, 206);
 }
 h3{
     text-align:center;
 }
+=======
+    box-shadow:0 0 20px green;
+    h3{
+        text-align:center;
+    }
+}
+
+>>>>>>> Stashed changes
 </style>
