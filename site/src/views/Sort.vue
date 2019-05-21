@@ -11,442 +11,97 @@
         <section>
             <article>
                 <div class="left">
-                    <ul>
-                        <li class="active">服饰 </li>
-                        <li>服饰 </li>
-                        <li>服饰 </li>
-                        <li>服饰 </li>
-                        <li>服饰 </li>
-                        <li>服饰 </li>
-                        <li>服饰 </li>
-                        <li>服饰 </li>
-                        <li>服饰 </li>
-                        <li>服饰 </li>
-                        <li>服饰 </li>
-                        <li>服饰 </li>
-                        <li>服饰 </li>
-                        <li>服饰 </li>
-                        <li>服饰 </li>
-                        <li>服饰 </li>
-                        <li>服饰 </li>
-                        <li>服饰 </li>
-                        <li>服饰 </li>
-                        <li>服饰 </li>
-                        <li>服饰 </li>
-                        <li>服饰 </li>
-                        <li>服饰 </li>
-                        <li>服饰 </li>
+                    <ul v-for="(item,index) in shopTypeList">
+                      <li :class="{'active' : shopIndex === index}" @click="selectMenu(index)" >{{item.shopTypeName}} </li>
+                        <!--<li>服饰 </li>-->
+                        <!--<li>服饰 </li>-->
+                        <!--<li>服饰 </li>-->
+                        <!--<li>服饰 </li>-->
+                        <!--<li>服饰 </li>-->
+                        <!--<li>服饰 </li>-->
+                        <!--<li>服饰 </li>-->
+                        <!--<li>服饰 </li>-->
+                        <!--<li>服饰 </li>-->
+                        <!--<li>服饰 </li>-->
+                        <!--<li>服饰 </li>-->
+                        <!--<li>服饰 </li>-->
+                        <!--<li>服饰 </li>-->
+                        <!--<li>服饰 </li>-->
+
                     </ul>
                 </div>
                 <div class="right">
                     <div class="both">
-                        <div class="phone">
-                            <p class="p1"><img src="../assets/images/1.jpg" alt=""></p>
-                            <h3>手机</h3>
-                            <ul>
-                                <li>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="house">
-                            <h3>家电</h3>
-                            <ul>
-                                <li>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="noteCom">
-                            <h3>家电</h3>
-                            <ul>
-                                <li>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
+                        <!--<p class="p1"><img src="../assets/images/1.jpg" alt="">-->
+                        <GoodsList :goodsList="goodsList[0]"></GoodsList>
+                        <GoodsList :goodsList="goodsList[1]"></GoodsList>
+                        <GoodsList :goodsList="goodsList[2]"></GoodsList>
+                        <GoodsList :goodsList="goodsList[3]"></GoodsList>
+                        <GoodsList :goodsList="goodsList[4]"></GoodsList>
+                        <GoodsList :goodsList="goodsList[5]"></GoodsList>
+                        <GoodsList :goodsList="goodsList[6]"></GoodsList>
+                        <GoodsList :goodsList="goodsList[7]"></GoodsList>
+                        <GoodsList :goodsList="goodsList[8]"></GoodsList>
+                        <GoodsList :goodsList="goodsList[9]"></GoodsList>
+                        <GoodsList :goodsList="goodsList[10]"></GoodsList>
+                        <GoodsList :goodsList="goodsList[11]"></GoodsList>
+                        <GoodsList :goodsList="goodsList[12]"></GoodsList>
+                        <GoodsList :goodsList="goodsList[13]"></GoodsList>
+                        <GoodsList :goodsList="goodsList[14]"></GoodsList>
+                        <!--<div class="phone" >-->
+                            <!--&lt;!&ndash;<p class="p1"><img src="../assets/images/1.jpg" alt=""></p>&ndash;&gt;-->
+                            <!--<p class="p1"><img :src="'http://127.0.0.1/'+item.shopTypePic"></p>-->
+                            <!--<ul>-->
+                                <!--<li>-->
+                                    <!--<p>-->
+                                        <!--<b><img src="../assets/images/phone1.png" alt=""></b>-->
+                                        <!--小米6-->
+                                    <!--</p>-->
+                                    <!--<p>-->
+                                        <!--<b><img src="../assets/images/phone1.png" alt=""></b>-->
+                                        <!--小米6-->
+                                    <!--</p>-->
+                                    <!--<p>-->
+                                        <!--<b><img src="../assets/images/phone1.png" alt=""></b>-->
+                                        <!--小米6-->
+                                    <!--</p>-->
+                                <!--</li>-->
+                                <!--<li>-->
+                                    <!--<p>-->
+                                        <!--<b><img src="../assets/images/phone1.png" alt=""></b>-->
+                                        <!--小米6-->
+                                    <!--</p>-->
+                                    <!--<p>-->
+                                        <!--<b><img src="../assets/images/phone1.png" alt=""></b>-->
+                                        <!--小米6-->
+                                    <!--</p>-->
+                                    <!--<p>-->
+                                        <!--<b><img src="../assets/images/phone1.png" alt=""></b>-->
+                                        <!--小米6-->
+                                    <!--</p>-->
+                                <!--</li>-->
+                                <!--<li>-->
+                                    <!--<p>-->
+                                        <!--<b><img src="../assets/images/phone1.png" alt=""></b>-->
+                                        <!--小米6-->
+                                    <!--</p>-->
+                                    <!--<p>-->
+                                        <!--<b><img src="../assets/images/phone1.png" alt=""></b>-->
+                                        <!--小米6-->
+                                    <!--</p>-->
+                                    <!--<p>-->
+                                        <!--<b><img src="../assets/images/phone1.png" alt=""></b>-->
+                                        <!--小米6-->
+                                    <!--</p>-->
+                                <!--</li>-->
+                            <!--</ul>-->
+                        <!--</div>-->
+                        <!--<GoodsType :goodsList="goodsList[0]"></GoodsType>-->
+                        <!--<GoodsType :goodsList="goodsList[1]"></GoodsType>-->
+                        <!--<GoodsType :goodsList="goodsList[0]"></GoodsType>-->
+                        <!--<GoodsType :goodsList="goodsList[0]"></GoodsType>-->
                     </div>
-                    <div class="both">
-                        <div class="phone">
-                            <p class="p1"><img src="../assets/images/1.jpg" alt=""></p>
-                            <h3>手机</h3>
-                            <ul>
-                                <li>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="house">
-                            <h3>家电</h3>
-                            <ul>
-                                <li>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="noteCom">
-                            <h3>家电</h3>
-                            <ul>
-                                <li>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="both">
-                        <div class="phone">
-                            <p class="p1"><img src="../assets/images/1.jpg" alt=""></p>
-                            <h3>手机</h3>
-                            <ul>
-                                <li>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="house">
-                            <h3>家电</h3>
-                            <ul>
-                                <li>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="noteCom">
-                            <h3>家电</h3>
-                            <ul>
-                                <li>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="both">
-                        <div class="phone">
-                            <p class="p1"><img src="../assets/images/1.jpg" alt=""></p>
-                            <h3>手机</h3>
-                            <ul>
-                                <li>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="house">
-                            <h3>家电</h3>
-                            <ul>
-                                <li>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="noteCom">
-                            <h3>家电</h3>
-                            <ul>
-                                <li>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                    <p>
-                                        <b><img src="../assets/images/phone1.png" alt=""></b>
-                                        小米6
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+
                 </div>
             </article>
 
@@ -509,18 +164,62 @@
 
 <!--</script>-->
 <script>
+    import axios from "axios"
+    import GoodsList from "../components/Shopcontent/Goods"
     export default {
-        name: "sort"
+        name: "sort",
+        components:{
+            GoodsList
+        },
+        data(){
+            return{
+                shopTypeList : [],
+                shopList:[],
+                shopIndex:0,
+                shopTypeName:[],
+                goodsList:[]
+            }
 
-        // data(){
-        //     return{
-        //        menus:[
-        //            name
-        //        ]
-        //     }
-        //
-        // },
-        // methods: {
+        },
+        methods: {
+            getShopList(){
+                axios.get("getAllShopTypeList").then(({data})=>{
+                    this.shopTypeList = data.shopTypeList;
+                    // console.log(data)
+                })
+            },
+            getGoodsList(){
+                console.log(123)
+                // axios.get("http://localhost/getAllshopList").then(({data})=>{
+                //
+                //     // this.shopList=data.shopList;
+                //     console.log(data)
+                // })
+                axios.get('getAllshopList',{
+                    params:{
+                    },
+                }).then(data=>{
+                    // console.log(data)
+                    this.shopList=data.data.shopList;
+                    // console.log(data.data.shopList[0],11)
+                    // console.log(data.data.shopTypeName)
+                }).catch(function (error) {
+                    console.log(error)
+                })
+            },
+            sort(shopTypeName){
+                axios.get('getGoodsByShopTypeId',{
+                    params:{
+                        shopTypeName
+                    }
+                }).then(data=>{
+                    this.goodsList.push(data.data.shopList);
+                    console.log((this.goodsList));
+                })
+            },
+            selectMenu($index) {
+                this.shopIndex = $index
+            },
         //     //获取catgory菜单数据
         //     async getCategoryData() {
         //         await categoryData().then((res) => {
@@ -544,7 +243,30 @@
         //         console.log(11111)
         //         this.$router.push('/home')
         //     }
-        // }
+        },
+        mounted(){
+            this.getShopList();
+            this.getGoodsList();
+
+        },
+        created(){
+            this.sort("手机");
+            this.sort("电视");
+            this.sort("电脑");
+            this.sort("家电");
+            this.sort("路由");
+            this.sort("出行");
+            this.sort("穿戴");
+            this.sort("智能");
+            this.sort("电源");
+            this.sort("健康");
+            this.sort("灯具");
+            this.sort("儿童");
+            this.sort("插线板");
+            this.sort("音频");
+            this.sort("箱包");
+        }
+
 
     }
 
@@ -617,66 +339,56 @@
     .right{
         width:3rem;
         margin-left: 0.75rem;
+        overflow: auto;
 
     }
     .both{
-
-        display: flex;
+         display: flex;
         flex-direction: column;
         align-items: center;
-        height:9.6rem;
+        height: 5.75rem;
         width: 3rem;
+        overflow: auto;
 
     }
-    .phone{
-        height: 4.6rem;
-    }
+    /*.phone{*/
+        /*height: 4.6rem;*/
+
+    /*}*/
     .p1{
         width: 2.5rem;
         height:1rem;
 
     }
-    .p1 img{
-        width: 100%;
-        height: 100%;
-    }
-    .phone h3,.house h3,.noteCom h3{
-        background: url("../assets/images/1.png") no-repeat center;
-        text-align: center;
-        margin-top: 0.3rem;
-        color: #919191;
-        font-size: 0.13rem;
-    }
-    .phone ul{
-        height: 3rem;
+    /*.p1 img{*/
+        /*width: 100%;*/
+        /*height: 100%;*/
+    /*}*/
+    /*.phone ul{*/
+        /*height: 3rem;*/
 
-    }
-    .house ul{
-        height: 2.2rem;
-    }
-    .noteCom ul{
-        height: 0.53rem;
-    }
-    .phone ul li,.house ul li,.noteCom ul li{
-        height: 0.83rem;
-        margin: 0.15rem 0;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .phone ul li p,.house ul li p,.noteCom ul li p{
-        width: 33%;
-        height: 0.83rem;
-        padding: 0 0.1rem;
-        text-align: center;
-        font-size: 0.1rem;
-        color: #7e7e7e;
-    }
+    /*}*/
 
-    .phone ul li p b img,.house ul li p b img,.noteCom ul li p b img{
-        width: 0.6rem;
-        height: 0.6rem;
-    }
+    /*.phone ul li{*/
+        /*height: 0.83rem;*/
+        /*margin: 0.15rem 0;*/
+        /*display: flex;*/
+        /*flex-direction: row;*/
+        /*justify-content: space-between;*/
+    /*}*/
+    /*.phone ul li p{*/
+        /*width: 33%;*/
+        /*height: 0.83rem;*/
+        /*padding: 0 0.1rem;*/
+        /*text-align: center;*/
+        /*font-size: 0.1rem;*/
+        /*color: #7e7e7e;*/
+    /*}*/
+
+    /*.phone ul li p b img{*/
+        /*width: 0.6rem;*/
+        /*height: 0.6rem;*/
+    /*}*/
 
     .house{
         width: 2.5rem;

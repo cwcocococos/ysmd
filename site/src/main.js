@@ -1,4 +1,4 @@
-import Vue from 'vue'
+﻿import Vue from 'vue'
 import App from './App.vue'
 import router from './router/index'
 import store from './store/index'
@@ -9,6 +9,10 @@ import 'element-ui/lib/theme-chalk/index.css';// 组件库所用到时的样式
 Vue.config.productionTip = false;
 Vue.use(ElementUI);
 Vue.prototype.$http=axios;
+axios.interceptors.request.use(config=>{
+  config.url="/yang/"+config.url+"?t="+Date.now();
+  return config;
+})
 new Vue({
   router,
   store,

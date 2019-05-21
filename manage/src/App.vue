@@ -3,7 +3,7 @@
     <el-header>
       <el-row>
         <el-col class="logo" :span="8" :style="{width:isCollapse?'64px':'240px'}">
-          <strong>{{isCollapse?'米':'小米商城管理系统'}}</strong>
+          <strong>{{isCollapse?'饿':'饿了么管理系统'}}</strong>
         </el-col>
         <el-col class="info" :span="8">
           <i :class="isCollapse?'el-icon-d-arrow-right':'el-icon-d-arrow-left'" @click="isCollapse=!isCollapse"></i>
@@ -72,7 +72,11 @@
         }
     }
 </script>
+<<<<<<< Updated upstream
 <style>
+=======
+<style lang="less">
+>>>>>>> Stashed changes
   .el-menu-vertical-demo:not(.el-menu--collapse) {
     width: 240px;
     min-height: 1000px;
@@ -81,8 +85,12 @@
     padding: 0px!important;
     background: orange;
     color: #ffffff;
+<<<<<<< Updated upstream
   }
   .info{
+=======
+    .info{
+>>>>>>> Stashed changes
       font-size:30px;
       line-height: 60px;
     }
@@ -98,21 +106,35 @@
       text-align: right;
       padding-right: 20px;
       line-height: 60px;
+<<<<<<< Updated upstream
       
     }
     .el-dropdown-link img {
+=======
+      .el-dropdown-link {
+        span {
+          color: #fff;
+        }
+        img {
+>>>>>>> Stashed changes
           width: 40px;
           height: 40px;
           border-radius: 50%;
           vertical-align: middle;
         }
+<<<<<<< Updated upstream
     .el-dropdown-link span {
         color: #fff;
       }
+=======
+      }
+    }
+  }
+>>>>>>> Stashed changes
   .toolbar {
     background:#f4f4f4;
     padding:10px;
-    margin:20px 0!important;
+    marign:20px 0!important;
   }
   .el-table th,.el-table td{
     text-align:center!important;
