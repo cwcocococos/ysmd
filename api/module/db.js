@@ -65,6 +65,13 @@ module.exports.updateOneById = function (coll,id,upObj,cb) {
         db.collection(coll).updateOne({_id:mongodb.ObjectId(id)},upObj,cb)
     })
 }
+
+
+module.exports.updateOne = function (coll,whereObj,upObj,cb) {
+    _connect(db=>{
+        db.collection(coll).updateOne(whereObj,upObj,cb)
+    })
+}
 // module.exports.updateOneById("contextList","5caab347106d3a236c6a8bc9",{$inc:{topNum:2}},function (err,results) {
 //     console.log(err);
 // })

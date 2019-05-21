@@ -6,12 +6,12 @@
                     <div class="content_Img .clear_fix">
                         <img src="../assets/images/avatar.76a75b8f17.png" alt="">
                     </div>
-                    <div class="content_Name">登录/注册</div>
+                    <div class="content_Name">{{phoneId?phoneId:"登录/注册"}}</div>
                     <div class="message iconfont icon-xinxi"></div>
-                    <!--<div class="content_VIP ">-->
-                    <!--<i class="iconfont icon-huangguan"></i>-->
-                    <!--会员积分-->
-                    <!--</div>-->
+                    <div class="content_VIP ">
+                        <i class="iconfont icon-huangguan"></i>
+                        会员积分
+                    </div>
                 </div>
                 <Indent></Indent>
                 <div class="ui-line"></div>
@@ -35,22 +35,30 @@
     import Setting from "../components/User/Setting"
     export default {
         name: "User",
+        data(){
+            return{
+                phoneId:''
+            }
+        },
         components:{Indent,Purse,Slideshow,Navigation,Setting},
-        // beforeRouteEnter(to,from,next) {
-        //     // console.log(to);
-        //
-        //     if (to.meta.isAuthorization) {
-        //         if (sessionStorage.getItem("isLogin")) {
-        //             next()
-        //         } else {
-        //
-        //             // this.$router.push('/register')
-        //             next('/register');
-        //         }
-        //     } else {
-        //         next();
-        //     }
-        // }
+        beforeRouteEnter(to,from,next) {
+            // console.log(to);
+
+            if (to.meta.isAuthorization) {
+                if (localStorage.getItem("phoneId")) {
+                    // this.$refs.phoneId.innerHTML = data.phoneId;
+                    next()
+                } else {
+                    next('/register');
+                }
+            } else {
+                next();
+            }
+        },
+        created(){
+            this.phoneId = localStorage.phoneId;
+        }
+
     }
 </script>
 
@@ -108,12 +116,12 @@
         position: absolute;
         right: 0;
         bottom: 0.3rem;
-        font-size: 0.12rem;
+        font-size: .1rem;
         background: #f6d856;
         color:#ab5622 ;
         text-align: center;
         align-items: center;
-        padding: 0.05rem 0;
+        padding: 0.06rem 0;
         border-radius: 0.12rem 0 0 0.12rem
     }
     .content_VIP .icon-huangguan{

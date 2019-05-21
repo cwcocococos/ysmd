@@ -3,7 +3,8 @@ import Router from 'vue-router'
 import admin from "./admin";
 import goods from "./goods";
 import shop from "./shop"
-Vue.use(Router)
+import User from "./user"
+Vue.use(Router);
 
 export default new Router({
   mode: 'history',
@@ -11,6 +12,7 @@ export default new Router({
   routes: [
       ...admin,
       ...goods,
-      ...shop
+      ...shop,
+      ...User
   ]
 })

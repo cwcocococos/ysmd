@@ -32,7 +32,6 @@
             <el-menu-item index="1-1" @click="$router.push('/adminLog')">管理员登陆日志</el-menu-item>
           </el-submenu>
 
-
           <el-submenu index="2">
             <template slot="title">
               <i class="el-icon-setting"></i>
@@ -40,6 +39,14 @@
             </template>
             <el-menu-item index="2-1" @click="$router.push('/shopTypeList')">商品类别列表</el-menu-item>
             <el-menu-item index="2-2" @click="$router.push('/shopList')">商品列表</el-menu-item>
+          </el-submenu>
+
+          <el-submenu index="3">
+            <template slot="title">
+              <i class="el-icon-setting"></i>
+              <span slot="title">用户管理</span>
+            </template>
+            <el-menu-item index="3-1" @click="$router.push('/userReg')">用户登陆日志</el-menu-item>
           </el-submenu>
 
         </el-menu>
