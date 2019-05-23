@@ -24,11 +24,9 @@
         </el-form>
         <div slot="footer" class="dialog-footer">
             <el-button @click="$emit('update:visible',false)">取 消</el-button>
-<<<<<<< Updated upstream
             <el-button type="primary">确 定</el-button>
-=======
             <el-button type="primary"  @click="addGoodsType">确 定</el-button>
->>>>>>> Stashed changes
+
         </div>
     </el-dialog>
 
@@ -60,8 +58,6 @@
                     this.shopList=data.shopList;
                 })
 
-<<<<<<< Updated upstream
-=======
             },
             upSuccess(res){
                 if(res.ok === 1){
@@ -84,7 +80,7 @@
             },
             addShopType(){
                 this.$refs.upload.submit();
->>>>>>> Stashed changes
+
             }
         },
         mounted(){

@@ -4,7 +4,7 @@
             <!--<p class="p1"><img :src="'http://127.0.0.1/'+item.shopTypePic"></p>-->
             <ul v-for="item in shopTypeList">
                 <p class="p1"><img :src="'http://127.0.0.1/'+item.shopTypePic"></p>
-                <li v-for="(item,i) in goodsList">
+                <li v-for="(item,index) in goodsList" :key="index">
                     <p>
                         <b><img :src="'http://127.0.0.1/'+item.shopPic" alt=""></b>
                         {{item.shopName}}
@@ -23,19 +23,22 @@
         props:['goodsList'],
         data(){
           return{
-              shopTypeList:[]
+              shopTypeList:[],
+              index:0,
           }
         },
         methods: {
             getShopList() {
                 axios.get("getAllShopTypeList").then(({data}) => {
                     this.shopTypeList = data.shopTypeList;
-                    // console.log(data)
+                    console.log(data.shopTypeList[0])
                 })
             },
+
         },
         mounted() {
             this.getShopList();
+
         }
 
     }

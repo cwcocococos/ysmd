@@ -46,9 +46,7 @@
                         *      actions当中调用登陆接口，成功以后修改用户的登陆状态
                         * */
                         this.$store.dispatch("login",this);
-<<<<<<< Updated upstream
-            
-=======
+
                         // this.$store.dispatch("login",{
                         //     parmas:this.adminForm,
                         //     cb(data){
@@ -59,7 +57,6 @@
                         //     adminName:this.adminForm.adminName,
                         //     passWord:this.adminForm.passWord
                         // });
->>>>>>> Stashed changes
                     }else{
                         this.isLoading = false;
                         this.$message.error('错了哦，请认真填写');
@@ -76,18 +73,10 @@
     margin:250px auto;
     padding:10px 30px;
     border:1px solid #eaeaea;
-<<<<<<< Updated upstream
     box-shadow:0 0 20px rgb(129, 129, 206);
 }
 h3{
     text-align:center;
 }
-=======
-    box-shadow:0 0 20px green;
-    h3{
-        text-align:center;
-    }
-}
 
->>>>>>> Stashed changes
 </style>
