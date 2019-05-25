@@ -12,7 +12,7 @@
                 </h1>
             </div>
             <div class="phoneNumber">
-                <input type="text" placeholder="请输入手机号" ref="phoneId" />
+                <input type="text" placeholder="请输入手机号" ref="phoneId" @blur="getReg"/>
             </div>
             <div class="VerificationCode">
                 <input type="text" placeholder="请输入短信验证码" ref="code">
@@ -56,7 +56,7 @@
             },
             getTime(){
                 // console.log(111);
-                this.$http.get("http://127.0.0.1/getTime",{
+                this.$http.get("getTime",{
                     params:{
                         phoneId:this.$refs.phoneId.value
                     }
@@ -71,7 +71,7 @@
                 })
             },
             register(){
-                this.$http.post("http://127.0.0.1/register",{
+                this.$http.post("register",{
                     phoneId:this.$refs.phoneId.value,
                     code:this.$refs.code.value
                 }).then(({data})=>{
@@ -87,9 +87,10 @@
             },
             sendCode(){
                 // console.log(222);
+                // console.log(this.$refs);
                 if(this.num === 0){
                     this.num = 10;
-                    this.$http.get("http://127.0.0.1/sendCode",{
+                    this.$http.get("sendCode",{
                         params:{
                             phoneId:this.$refs.phoneId.value,
                         }
@@ -105,7 +106,15 @@
                 }else{
                     alert("时间没到")
                 }
-
+            },
+            getReg(val){
+                console.log(this.$refs.phoneId);
+                val=/^[1][3,4,5,7,8][0-9]{9}$/;
+                if (!this.$refs.phoneId.val.test(val)) {
+                    return alert("错误");
+                } else {
+                    return alert("正确");
+                }
             }
         }
     }

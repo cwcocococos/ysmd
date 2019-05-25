@@ -12,7 +12,7 @@ Vue.prototype.$http=axios;
 axios.interceptors.request.use(config=>{
   config.url="/yang/"+config.url+"?t="+Date.now();
   return config;
-})
+});
 new Vue({
   router,
   store,

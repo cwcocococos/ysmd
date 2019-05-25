@@ -109,7 +109,7 @@ module.exports.sendCode=function (req,res) {
     *   2、无
     *       发送验证码*/
     var phoneId = req.query.phoneId;
-    console.log(phoneId)
+    console.log(phoneId);
     db.findOne("phoneCode",{phoneId},function (err,info) {
         var code = tool.getRandom(100000,999999);
         if(info){
