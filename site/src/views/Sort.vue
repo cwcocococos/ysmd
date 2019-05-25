@@ -17,22 +17,7 @@
                 </div>
                 <div class="right">
                     <div class="both">
-                        <!--<p class="p1"><img src="../assets/images/1.jpg" alt="">-->
-                        <GoodsList :goodsList="goodsList[0]"></GoodsList>
-                        <GoodsList :goodsList="goodsList[1]"></GoodsList>
-                        <GoodsList :goodsList="goodsList[2]"></GoodsList>
-                        <GoodsList :goodsList="goodsList[3]"></GoodsList>
-                        <GoodsList :goodsList="goodsList[4]"></GoodsList>
-                        <GoodsList :goodsList="goodsList[5]"></GoodsList>
-                        <GoodsList :goodsList="goodsList[6]"></GoodsList>
-                        <GoodsList :goodsList="goodsList[7]"></GoodsList>
-                        <GoodsList :goodsList="goodsList[8]"></GoodsList>
-                        <GoodsList :goodsList="goodsList[9]"></GoodsList>
-                        <GoodsList :goodsList="goodsList[10]"></GoodsList>
-                        <GoodsList :goodsList="goodsList[11]"></GoodsList>
-                        <GoodsList :goodsList="goodsList[12]"></GoodsList>
-                        <GoodsList :goodsList="goodsList[13]"></GoodsList>
-                        <GoodsList :goodsList="goodsList[14]"></GoodsList>
+                        <GoodsList :index="shopIndex" :goodsList="goodsList[shopIndex]"></GoodsList>
                     </div>
 
                 </div>
@@ -62,6 +47,7 @@
 
         },
         methods: {
+
             getShopList(){
                 axios.get("getAllShopTypeList").then(({data})=>{
                     this.shopTypeList = data.shopTypeList;
@@ -69,12 +55,6 @@
                 })
             },
             getGoodsList(){
-                console.log(123)
-                // axios.get("http://localhost/getAllshopList").then(({data})=>{
-                //
-                //     // this.shopList=data.shopList;
-                //     console.log(data)
-                // })
                 axios.get('getAllshopList',{
                     params:{
                     },
@@ -94,35 +74,13 @@
                     }
                 }).then(data=>{
                     this.goodsList.push(data.data.shopList);
-                    console.log((this.goodsList));
+                    // console.log((this.goodsList));
                 })
             },
             selectMenu($index) {
                 this.shopIndex = $index
+                console.log($index)
             },
-        //     //获取catgory菜单数据
-        //     async getCategoryData() {
-        //         await categoryData().then((res) => {
-        //             console.log(res)
-        //             this.categoryData = res.data
-        //         })
-        //     },
-        //     //动态设置searc-wrap的高
-        //     setSearchWrapHeight() {
-        //         let $screenHeight = document.documentElement.clientHeight
-        //         this.$refs.searchWrap.style.height = $screenHeight - 200 + 'px'
-        //     },
-        //     //左侧菜单和右侧区域联动
-        //     selectMenu($index) {
-        //         this.currentIndex = $index
-        //     },
-        //     selectProduct(title){
-        //         this.$router.push('./product-list?keyword='+title)
-        //     },
-        //     goHome(){
-        //         console.log(11111)
-        //         this.$router.push('/home')
-        //     }
         },
         mounted(){
             this.getShopList();
@@ -231,24 +189,6 @@
         overflow: auto;
 
     }
-    /*.phone{*/
-        /*height: 4.6rem;*/
-
-    /*}*/
-    .p1{
-        width: 2.5rem;
-        height:1rem;
-
-    }
-    /*.p1 img{*/
-        /*width: 100%;*/
-        /*height: 100%;*/
-    /*}*/
-    /*.phone ul{*/
-        /*height: 3rem;*/
-
-    /*}*/
-
     .phone ul li{
         height: 0.83rem;
         margin: 0.15rem 0;
@@ -257,27 +197,5 @@
         justify-content: space-between;
         background: pink;
     }
-    /*.phone ul li p{*/
-        /*width: 33%;*/
-        /*height: 0.83rem;*/
-        /*padding: 0 0.1rem;*/
-        /*text-align: center;*/
-        /*font-size: 0.1rem;*/
-        /*color: #7e7e7e;*/
-    /*}*/
 
-    /*.phone ul li p b img{*/
-        /*width: 0.6rem;*/
-        /*height: 0.6rem;*/
-    /*}*/
-
-    .house{
-        width: 2.5rem;
-        height: 2.65rem;
-    }
-
-    .noteCom{
-        width: 2.5rem;
-        height: 1.5rem;
-    }
 </style>

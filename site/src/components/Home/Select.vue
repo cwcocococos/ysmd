@@ -63,7 +63,7 @@
                 </div>
             </div>
             <div class="advMain">
-                <div class="main-left" @click="Shopcont">
+                <div class="main-left">
                     <img src="@/assets/images/adv1.jpg" alt="">
                 </div>
                 <div class="main-right">
@@ -115,9 +115,9 @@
             zn
         },
         methods:{ //跳转页面
-            Shopcont(){
-                this.$router.push({ path:'/shop'  })
-            }
+            // Shopcont(){
+            //     this.$router.push({ path:'/shop'  })
+            // }
         },
         data() {
             return {

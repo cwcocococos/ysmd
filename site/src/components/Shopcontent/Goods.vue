@@ -2,9 +2,9 @@
         <div class="phone" >
             <!--<p class="p1"><img src="../assets/images/1.jpg" alt=""></p>-->
             <!--<p class="p1"><img :src="'http://127.0.0.1/'+item.shopTypePic"></p>-->
-            <ul v-for="item in shopTypeList">
-                <p class="p1"><img :src="'http://127.0.0.1/'+item.shopTypePic"></p>
-                <li v-for="(item,index) in goodsList" :key="index">
+            <ul>
+                <p class="p1" ><img :src="'http://127.0.0.1/'+shopTypeList[index].shopTypePic" ></p>
+                <li v-for="(item,index) in goodsList" :key="index" @click="Shopcont">
                     <p>
                         <b><img :src="'http://127.0.0.1/'+item.shopPic" alt=""></b>
                         {{item.shopName}}
@@ -20,25 +20,28 @@
     import  axios from "axios"
     export default {
         name: "Goods",
-        props:['goodsList'],
+        props:['goodsList','index'],
         data(){
           return{
               shopTypeList:[],
-              index:0,
           }
         },
         methods: {
             getShopList() {
                 axios.get("getAllShopTypeList").then(({data}) => {
                     this.shopTypeList = data.shopTypeList;
-                    console.log(data.shopTypeList[0])
+                    console.log(data.shopTypeList)
                 })
+            },
+            Shopcont(){
+                this.$router.push({ path:'/shop'  })
             },
 
         },
-        mounted() {
-            this.getShopList();
 
+        created() {
+            this.getShopList();
+            // this.path = this.$route.path;
         }
 
     }
