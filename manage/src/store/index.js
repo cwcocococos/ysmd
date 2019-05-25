@@ -3,7 +3,11 @@ import Vuex from 'vuex'
 import admin from "./admin"
 import shop from "./shop"
 import config from "./config"
+<<<<<<< HEAD
 import adv from "./adv"
+=======
+import user from "./user"
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
 Vue.use(Vuex)
 export default new Vuex.Store({
     state:{
@@ -30,7 +34,12 @@ export default new Vuex.Store({
     modules: {
         admin,
         shop,
+<<<<<<< HEAD
         config, // 配置模块
         adv
+=======
+        config,// 配置模块
+        user
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
     }
 })

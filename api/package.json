@@ -8,9 +8,13 @@
     "mongodb": "^3.2.3"
   },
   "dependencies": {
+<<<<<<< HEAD
     "express": "^4.17.0",
     "formidable": "^1.2.1",
     "jwt-simple": "^0.5.6",
     "mongodb": "^3.2.5"
+=======
+    "axios": "^0.18.0"
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
   }
 }

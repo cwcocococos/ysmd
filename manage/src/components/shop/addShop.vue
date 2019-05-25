@@ -31,6 +31,7 @@
                         :on-success = "upSuccess"
                         list-type="picture">
                     <el-button size="small" type="warning">点击上传</el-button>
+                    <el-button size="small" type="primary">点击上传</el-button>
                     <div slot="tip" class="el-upload__tip">只能上传jpg/png文件，且不超过500kb</div>
                 </el-upload>
             </el-form-item>
@@ -38,8 +39,10 @@
         <div slot="footer" class="dialog-footer">
             <el-button @click="$emit('update:visible',false)">取 消</el-button>
             <el-button type="warning" @click="addShop">确 定</el-button>
+            <el-button type="primary" @click="addShop">确 定</el-button>
         </div>
     </el-dialog>
+        </el-form>
 
 </template>
 
@@ -54,7 +57,9 @@
                     shopName:"",
                     shopTypeId:"",
                     shopPrice:"",
-                    shopContent:""
+                    shopContent:"",
+                    shopTypeId:""
+
                 }
             }
         },

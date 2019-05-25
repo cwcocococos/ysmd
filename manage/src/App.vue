@@ -32,7 +32,6 @@
             <el-menu-item index="1-1" @click="$router.push('/adminLog')">管理员登陆日志</el-menu-item>
           </el-submenu>
 
-
           <el-submenu index="2">
             <template slot="title">
               <i class="el-icon-setting"></i>
@@ -45,10 +44,16 @@
           <el-submenu index="3">
             <template slot="title">
               <i class="el-icon-setting"></i>
+<<<<<<< HEAD
               <span slot="title">广告管理</span>
             </template>
             <el-menu-item index="3-1" @click="$router.push('/advTypeList')">广告类别列表</el-menu-item>
             <el-menu-item index="3-2" @click="$router.push('/advList')">广告列表</el-menu-item>
+=======
+              <span slot="title">用户管理</span>
+            </template>
+            <el-menu-item index="3-1" @click="$router.push('/userReg')">用户登陆日志</el-menu-item>
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
           </el-submenu>
 
         </el-menu>
@@ -74,15 +79,17 @@
         }
     }
 </script>
-<style>
+
+<style lang="less">
   .el-menu-vertical-demo:not(.el-menu--collapse) {
     width: 240px;
     min-height: 1000px;
   }
   .el-header {
     padding: 0px!important;
-    background: orange;
+    background: #409EFF;
     color: #ffffff;
+<<<<<<< HEAD
   }
   .info{
     font-size:30px;
@@ -110,11 +117,41 @@
     height: 40px;
     border-radius: 50%;
     vertical-align: middle;
+=======
+    .info{
+      font-size:30px;
+      line-height: 60px;
+    }
+    .logo {
+      text-align:center;
+      width: 240px;
+      font-size: 25px;
+      line-height: 60px;
+      border-right: 1px solid rgba(238, 241, 146, 0.3);
+    }
+    .adminInfo {
+      float: right;
+      text-align: right;
+      padding-right: 20px;
+      line-height: 60px;
+      .el-dropdown-link {
+        span {
+          color: #fff;
+        }
+        img {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          vertical-align: middle;
+        }
+      }
+    }
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
   }
   .toolbar {
     background:#f4f4f4;
     padding:10px;
-    margin:20px 0!important;
+    marign:20px 0!important;
   }
   .el-table th,.el-table td{
     text-align:center!important;
@@ -123,3 +160,4 @@
     margin-bottom:0px;
   }
 </style>
+

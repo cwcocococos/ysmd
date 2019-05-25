@@ -34,6 +34,7 @@
                     <span style="margin-left: 10px">{{ scope.row.shopTypeName }}</span>
                 </template>
             </el-table-column>
+<<<<<<< HEAD
             <el-table-column
                     label="商品类别地址">
                 <template slot-scope="scope">
@@ -42,6 +43,9 @@
             </el-table-column>
             <el-table-column
                     label="商品类别的图片">
+=======
+            <el-table-column label="商品类别的图片">
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
                 <template slot-scope="scope">
                     <img :src="$store.state.config.baseUrl+scope.row.shopTypePic" alt="">
                 </template>
@@ -64,17 +68,26 @@
                             size="mini"
                             type="danger"
                     >删除</el-button>
-                    <el-button
-                            size="mini"
-                            type="warning"
-                            @click="shop_visible=true;shopTypeId=scope.row._id"
-                    >添加商品</el-button>
+                    <el-button size="mini" type="warning" @click="shop_visible=true;shopTypeId=scope.row._id">添加商品</el-button>
                 </template>
             </el-table-column>
         </el-table>
 
         <pageInfo actionsName="getShopTypeList" :params="{search}"></pageInfo>
+<<<<<<< HEAD
 
+=======
+        <!--<div class="toolbar">-->
+            <!--<el-pagination-->
+                    <!--background-->
+                    <!--layout="prev, pager, next"-->
+                    <!--@current-change="pageI=>$store.dispatch('getShopTypeList',pageI)"-->
+                    <!--:current-page="$store.state.pageInfo.pageIndex"-->
+                    <!--:page-count="$store.state.pageInfo.pageSum"-->
+            <!--&gt;-->
+            <!--</el-pagination>-->
+        <!--</div>-->
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
         <addShopType  :visible.sync="dialogFormVisible" ></addShopType>
         <!--<addShop v-if="shop_visible" :visible.sync="shop_visible" :shopTypeId="shopTypeId"></addShop>-->
         <addShop  :visible.sync="shop_visible" :shopTypeId="shopTypeId"></addShop>

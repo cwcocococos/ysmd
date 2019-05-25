@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6eb679d-ed38-4deb-81d8-9aa3e52c5341" name="Default" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/manage/src/components/adv/addAdv.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/manage/src/components/adv/list.vue" afterDir="false" />
@@ -68,6 +69,634 @@
       <change beforePath="$PROJECT_DIR$/site/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/store/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/src/views/Main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/views/Main.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/site/vue.config.js" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/api/node_modules/.bin/semver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/.bin/semver.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/lib/read.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/lib/types/json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/lib/types/raw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/lib/types/text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/lib/types/urlencoded.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/bytes/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/bytes/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/bytes/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/bytes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/bytes/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/content-type/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/content-type/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/content-type/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/content-type/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/content-type/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/debug/.coveralls.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/debug/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/debug/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/debug/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/debug/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/debug/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/debug/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/debug/component.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/debug/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/debug/node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/debug/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/debug/src/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/debug/src/debug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/debug/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/debug/src/inspector-log.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/debug/src/node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/depd/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/depd/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/depd/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/depd/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/depd/lib/browser/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/depd/lib/compat/callsite-tostring.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/depd/lib/compat/event-listener-count.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/depd/lib/compat/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/depd/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/http-errors/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/http-errors/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/http-errors/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/http-errors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/http-errors/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/iconv-lite/Changelog.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/iconv-lite/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/iconv-lite/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/iconv-lite/encodings/dbcs-codec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/iconv-lite/encodings/dbcs-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/iconv-lite/encodings/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/iconv-lite/encodings/internal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/iconv-lite/encodings/sbcs-codec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/iconv-lite/encodings/sbcs-data-generated.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/iconv-lite/encodings/sbcs-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/big5-added.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/cp936.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/cp949.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/cp950.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/eucjp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/gbk-added.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/shiftjis.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/iconv-lite/encodings/utf16.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/iconv-lite/encodings/utf7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/iconv-lite/lib/bom-handling.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/iconv-lite/lib/extend-node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/iconv-lite/lib/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/iconv-lite/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/iconv-lite/lib/streams.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/iconv-lite/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/on-finished/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/on-finished/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/on-finished/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/on-finished/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/on-finished/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/qs/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/qs/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/qs/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/qs/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/qs/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/qs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/qs/dist/qs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/qs/lib/formats.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/qs/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/qs/lib/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/qs/lib/stringify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/qs/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/qs/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/qs/test/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/qs/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/qs/test/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/qs/test/stringify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/qs/test/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/raw-body/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/raw-body/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/raw-body/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/raw-body/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/raw-body/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/raw-body/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/setprototypeof/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/setprototypeof/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/setprototypeof/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/setprototypeof/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/setprototypeof/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/setprototypeof/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/statuses/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/statuses/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/statuses/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/statuses/codes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/statuses/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/statuses/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/type-is/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/type-is/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/type-is/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/type-is/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/node_modules/type-is/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/body-parser/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/bson/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/bson/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/bson/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/bson/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/bson/browser_build/bson.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/bson/browser_build/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/bson/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/bson/lib/bson/binary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/bson/lib/bson/bson.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/bson/lib/bson/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/bson/lib/bson/db_ref.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/bson/lib/bson/decimal128.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/bson/lib/bson/double.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/bson/lib/bson/float_parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/bson/lib/bson/int_32.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/bson/lib/bson/long.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/bson/lib/bson/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/bson/lib/bson/max_key.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/bson/lib/bson/min_key.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/bson/lib/bson/objectid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/bson/lib/bson/parser/calculate_size.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/bson/lib/bson/parser/deserializer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/bson/lib/bson/parser/serializer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/bson/lib/bson/parser/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/bson/lib/bson/regexp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/bson/lib/bson/symbol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/bson/lib/bson/timestamp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/bson/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/ee-first/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/ee-first/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/ee-first/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/ee-first/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/lib/application.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/lib/express.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/lib/middleware/init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/lib/middleware/query.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/lib/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/lib/response.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/lib/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/lib/router/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/lib/router/route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/lib/view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/accepts/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/accepts/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/accepts/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/accepts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/accepts/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/array-flatten/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/array-flatten/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/array-flatten/array-flatten.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/array-flatten/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/body-parser/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/body-parser/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/body-parser/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/body-parser/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/body-parser/lib/read.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/body-parser/lib/types/json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/body-parser/lib/types/raw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/body-parser/lib/types/text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/body-parser/lib/types/urlencoded.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/body-parser/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/content-disposition/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/content-disposition/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/content-disposition/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/content-disposition/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/content-disposition/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/content-type/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/content-type/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/content-type/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/content-type/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/content-type/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/cookie-signature/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/cookie-signature/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/cookie-signature/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/cookie-signature/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/cookie-signature/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/cookie/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/cookie/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/cookie/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/cookie/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/cookie/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/debug/.coveralls.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/debug/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/debug/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/debug/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/debug/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/debug/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/debug/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/debug/component.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/debug/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/debug/node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/debug/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/debug/src/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/debug/src/debug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/debug/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/debug/src/inspector-log.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/debug/src/node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/depd/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/depd/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/depd/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/depd/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/depd/lib/browser/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/depd/lib/compat/callsite-tostring.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/depd/lib/compat/event-listener-count.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/depd/lib/compat/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/depd/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/encodeurl/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/encodeurl/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/encodeurl/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/encodeurl/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/encodeurl/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/escape-html/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/escape-html/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/escape-html/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/escape-html/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/etag/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/etag/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/etag/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/etag/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/etag/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/finalhandler/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/finalhandler/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/finalhandler/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/finalhandler/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/finalhandler/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/fresh/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/fresh/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/fresh/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/fresh/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/fresh/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/merge-descriptors/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/merge-descriptors/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/merge-descriptors/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/merge-descriptors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/merge-descriptors/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/methods/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/methods/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/methods/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/methods/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/methods/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/on-finished/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/on-finished/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/on-finished/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/on-finished/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/on-finished/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/parseurl/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/parseurl/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/parseurl/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/parseurl/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/parseurl/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/path-to-regexp/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/path-to-regexp/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/path-to-regexp/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/path-to-regexp/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/path-to-regexp/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/proxy-addr/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/proxy-addr/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/proxy-addr/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/proxy-addr/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/proxy-addr/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/qs/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/qs/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/qs/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/qs/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/qs/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/qs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/qs/dist/qs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/qs/lib/formats.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/qs/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/qs/lib/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/qs/lib/stringify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/qs/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/qs/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/qs/test/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/qs/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/qs/test/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/qs/test/stringify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/qs/test/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/range-parser/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/range-parser/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/range-parser/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/range-parser/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/range-parser/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/safe-buffer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/safe-buffer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/safe-buffer/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/safe-buffer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/safe-buffer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/send/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/send/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/send/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/send/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/send/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/serve-static/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/serve-static/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/serve-static/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/serve-static/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/serve-static/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/setprototypeof/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/setprototypeof/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/setprototypeof/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/setprototypeof/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/setprototypeof/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/statuses/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/statuses/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/statuses/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/statuses/codes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/statuses/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/statuses/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/type-is/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/type-is/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/type-is/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/type-is/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/type-is/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/utils-merge/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/utils-merge/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/utils-merge/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/utils-merge/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/utils-merge/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/vary/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/vary/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/vary/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/vary/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/node_modules/vary/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/express/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/formidable/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/formidable/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/formidable/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/formidable/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/formidable/lib/file.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/formidable/lib/incoming_form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/formidable/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/formidable/lib/json_parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/formidable/lib/multipart_parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/formidable/lib/octet_parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/formidable/lib/querystring_parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/formidable/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/formidable/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/inherits/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/inherits/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/inherits/inherits.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/inherits/inherits_browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/inherits/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/jwt-simple/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/jwt-simple/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/jwt-simple/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/jwt-simple/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/jwt-simple/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/jwt-simple/lib/jwt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/jwt-simple/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/md5/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/md5/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/md5/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/md5/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/md5/md5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/md5/node_modules/charenc/LICENSE.mkd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/md5/node_modules/charenc/README.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/md5/node_modules/charenc/charenc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/md5/node_modules/charenc/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/md5/node_modules/crypt/LICENSE.mkd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/md5/node_modules/crypt/README.mkd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/md5/node_modules/crypt/crypt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/md5/node_modules/crypt/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/md5/node_modules/is-buffer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/md5/node_modules/is-buffer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/md5/node_modules/is-buffer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/md5/node_modules/is-buffer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/md5/node_modules/is-buffer/test/basic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/md5/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/md5/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/media-typer/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/media-typer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/media-typer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/media-typer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/media-typer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/memory-pager/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/memory-pager/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/memory-pager/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/memory-pager/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/memory-pager/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/memory-pager/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mime-db/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mime-db/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mime-db/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mime-db/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mime-db/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mime-db/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mime-types/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mime-types/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mime-types/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mime-types/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mime-types/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/aggregation_cursor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/apm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/async/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/async/async_iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/bulk/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/bulk/ordered.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/bulk/unordered.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/change_stream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/collection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/command_cursor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/cursor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/gridfs-stream/download.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/gridfs-stream/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/gridfs-stream/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/gridfs/chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/gridfs/grid_store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/mongo_client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/operations/admin_ops.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/operations/aggregate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/operations/collection_ops.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/operations/cursor_ops.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/operations/db_ops.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/operations/mongo_client_ops.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/topologies/mongos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/topologies/native_topology.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/topologies/replset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/topologies/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/topologies/topology_base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/url_parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/auth/auth_provider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/auth/defaultAuthProviders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/auth/gssapi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/auth/mongo_credentials.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/auth/mongocr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/auth/plain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/auth/scram.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/auth/sspi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/auth/x509.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/connection/apm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/connection/command_result.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/connection/commands.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/connection/logger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/connection/msg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/connection/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/sdam/monitoring.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/sdam/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/sdam/server_description.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/sdam/server_selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/sdam/topology.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/sdam/topology_description.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/sessions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/tools/smoke_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/mongos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/read_preference.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/replset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/replset_state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/shared.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/transactions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/uri_parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/wireprotocol/command.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/wireprotocol/compression.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/wireprotocol/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/wireprotocol/get_more.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/wireprotocol/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/wireprotocol/kill_cursors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/wireprotocol/query.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/wireprotocol/shared.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/lib/wireprotocol/write_command.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/safe-buffer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/safe-buffer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/safe-buffer/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/safe-buffer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/node_modules/safe-buffer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/mongodb/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/ms/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/ms/license.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/ms/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/ms/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/require_optional/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/require_optional/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/require_optional/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/require_optional/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/require_optional/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/require_optional/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/require_optional/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/require_optional/test/nestedTest/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/require_optional/test/nestedTest/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/require_optional/test/require_optional_tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/resolve-from/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/resolve-from/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/resolve-from/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/resolve-from/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/safer-buffer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/safer-buffer/Porting-Buffer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/safer-buffer/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/safer-buffer/dangerous.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/safer-buffer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/safer-buffer/safer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/safer-buffer/tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/saslprep/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/saslprep/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/saslprep/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/saslprep/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/saslprep/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/saslprep/code-points.mem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/saslprep/generate-code-points.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/saslprep/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/saslprep/lib/code-points.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/saslprep/lib/memory-code-points.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/saslprep/lib/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/saslprep/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/saslprep/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/saslprep/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/saslprep/test/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/semver/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/semver/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/semver/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/semver/bin/semver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/semver/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/semver/range.bnf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/semver/semver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/sparse-bitfield/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/sparse-bitfield/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/sparse-bitfield/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/sparse-bitfield/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/sparse-bitfield/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/sparse-bitfield/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/sparse-bitfield/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/unpipe/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/unpipe/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/unpipe/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/unpipe/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/node_modules/unpipe/package.json" afterDir="false" />
+=======
+<<<<<<< Updated upstream
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/router/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage/src/components/common/isRegister.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage/src/components/user/my.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage/src/components/user/reg.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage/src/router/user/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage/src/store/user/index.js" afterDir="false" />
+>>>>>>> c94d0d885bae56ef6de76e09509a679536fd83fb
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/router/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/router/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/manage/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/manage/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/site/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/src/components/Register/register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/components/Register/register.vue" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/site/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/src/views/User.vue" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/views/User.vue" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/router/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/router/shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/manage/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/manage/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/manage/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/src/components/goods/addGoodsType.vue" beforeDir="false" afterPath="$PROJECT_DIR$/manage/src/components/goods/addGoodsType.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/src/components/shop/addShop.vue" beforeDir="false" afterPath="$PROJECT_DIR$/manage/src/components/shop/addShop.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/src/components/shop/list.vue" beforeDir="false" afterPath="$PROJECT_DIR$/manage/src/components/shop/list.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/src/components/shop/typeList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/manage/src/components/shop/typeList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/manage/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/manage/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/manage/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/src/views/About.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/src/views/Home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/src/views/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/manage/src/views/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/src/components/Shopcontent/Goods.vue" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/components/Shopcontent/Goods.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/src/views/Sort.vue" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/views/Sort.vue" afterDir="false" />
+>>>>>>> Stashed changes
+>>>>>>> c94d0d885bae56ef6de76e09509a679536fd83fb
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -78,8 +707,12 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="project" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/site/src/components/Home/Select.vue">
           <provider selected="true" editor-type-id="text-editor">
@@ -87,11 +720,48 @@
               <caret line="161" column="5" lean-forward="true" selection-start-line="161" selection-start-column="5" selection-end-line="161" selection-end-column="5" />
               <folding>
                 <element signature="e#3848#3876#0" expanded="true" />
+=======
+<<<<<<< HEAD
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/server.js">
+=======
+<<<<<<< Updated upstream
+      <file leaf-file-name="User.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/site/src/views/User.vue">
+>>>>>>> c94d0d885bae56ef6de76e09509a679536fd83fb
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#368#406#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="reg.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage/src/components/user/reg.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/src/components/Register/register.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="109" column="19" selection-start-line="109" selection-start-column="19" selection-end-line="109" selection-end-column="22" />
+              <folding>
+                <element signature="e#1711#1765#0" />
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site/src/components/Home/Tele.vue">
           <provider selected="true" editor-type-id="text-editor">
@@ -100,24 +770,160 @@
               <folding>
                 <element signature="e#952#980#0" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/site/src/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="115">
+              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="26" />
+=======
+            <state relative-caret-position="621">
+              <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/src/components/Register/register.vue">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/src/App.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+>>>>>>> Stashed changes
+>>>>>>> c94d0d885bae56ef6de76e09509a679536fd83fb
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="vue.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/vue.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+=======
+<<<<<<< Updated upstream
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage/src/store/user/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="11" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/router/shop.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1080">
+              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+              <folding>
+                <element signature="e#3357#3521#0" />
+                <element signature="e#3589#3858#0" />
+              </folding>
+>>>>>>> Stashed changes
+>>>>>>> c94d0d885bae56ef6de76e09509a679536fd83fb
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/router/user.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1380">
+              <caret line="163" column="2" selection-start-line="163" selection-start-column="2" selection-end-line="163" selection-end-column="2" />
+              <folding>
+                <element signature="e#161#1812#0" />
+                <element signature="e#1858#3240#0" />
+                <element signature="e#3291#3462#0" />
+              </folding>
+=======
+<<<<<<< Updated upstream
+      <file leaf-file-name="register.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/src/components/Register/register.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1886">
+              <caret line="82" column="40" lean-forward="true" selection-start-line="82" selection-start-column="40" selection-end-line="82" selection-end-column="40" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="24" column="30" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="30" />
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/site/src/components/Home/TV.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-370">
               <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+=======
+        <entry file="file://$PROJECT_DIR$/manage/src/App.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2781">
+              <caret line="103" column="4" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="4" />
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/site/src/components/Home/Header.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1675">
               <caret line="79" column="26" lean-forward="true" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+            </state>
+          </provider>
+=======
+        <entry file="file://$PROJECT_DIR$/manage/src/views/Login.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2106">
+              <caret line="78" column="22" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/manage/src/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+              <folding>
+                <element signature="e#37#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage/test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage/vue.config.js">
+          <provider selected="true" editor-type-id="text-editor" />
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/src/views/Sort.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+>>>>>>> Stashed changes
+>>>>>>> c94d0d885bae56ef6de76e09509a679536fd83fb
             </state>
           </provider>
         </entry>
@@ -131,6 +937,7 @@
         <option value="JavaScript File" />
       </list>
     </option>
+<<<<<<< HEAD
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -141,10 +948,59 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+=======
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>res</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+<<<<<<< Updated upstream
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/api/router/admin.js" />
+        <option value="$PROJECT_DIR$/manage/src/router/index.js" />
+        <option value="$PROJECT_DIR$/manage/src/App.vue" />
+        <option value="$PROJECT_DIR$/manage/src/store/admin/index.js" />
+        <option value="$PROJECT_DIR$/manage/src/components/common/isregister.vue" />
+        <option value="$PROJECT_DIR$/manage/src/components/user/my.vue" />
+        <option value="$PROJECT_DIR$/manage/src/store/index.js" />
+        <option value="$PROJECT_DIR$/site/src/main.js" />
+        <option value="$PROJECT_DIR$/api/module/db.js" />
+        <option value="$PROJECT_DIR$/manage/src/components/user/reg.vue" />
+        <option value="$PROJECT_DIR$/manage/src/router/user/index.js" />
+        <option value="$PROJECT_DIR$/manage/src/store/user/index.js" />
+        <option value="$PROJECT_DIR$/site/src/views/User.vue" />
+        <option value="$PROJECT_DIR$/api/router/user.js" />
+        <option value="$PROJECT_DIR$/site/vue.config.js" />
+        <option value="$PROJECT_DIR$/api/server.js" />
+        <option value="$PROJECT_DIR$/site/src/components/Register/register.vue" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/api/node_modules" />
+    <handled-path value="$PROJECT_DIR$/manage/node_modules" />
+    <handled-path value="$PROJECT_DIR$/site/node_modules" />
+=======
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/manage" />
+>>>>>>> Stashed changes
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/manage/src/components/adv/advTypeList.vue" />
         <option value="$PROJECT_DIR$/manage/src/router/adv/index.js" />
         <option value="$PROJECT_DIR$/manage/src/components/goods/addAdvType.vue" />
@@ -196,6 +1052,20 @@
     <option name="x" value="231" />
     <option name="y" value="12" />
     <option name="width" value="824" />
+=======
+        <option value="$PROJECT_DIR$/manage/src/App.vue" />
+        <option value="$PROJECT_DIR$/manage/src/views/Login.vue" />
+        <option value="$PROJECT_DIR$/api/router/shop.js" />
+        <option value="$PROJECT_DIR$/api/server.js" />
+        <option value="$PROJECT_DIR$/manage/src/main.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="697" />
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -210,8 +1080,14 @@
         <subPane>
           <expand>
             <path>
+<<<<<<< HEAD
               <item name="products" type="b2602c69:ProjectViewProjectNode" />
               <item name="products" type="462c0819:PsiDirectoryNode" />
+=======
+<<<<<<< Updated upstream
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
             </path>
             <path>
               <item name="products" type="b2602c69:ProjectViewProjectNode" />
@@ -224,6 +1100,8 @@
               <item name="site" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
             <path>
               <item name="products" type="b2602c69:ProjectViewProjectNode" />
               <item name="products" type="462c0819:PsiDirectoryNode" />
@@ -274,7 +1152,12 @@
               <item name="site" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="xiaomi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaomi" type="462c0819:PsiDirectoryNode" />
+>>>>>>> Stashed changes
             </path>
+>>>>>>> c94d0d885bae56ef6de76e09509a679536fd83fb
           </expand>
           <select />
         </subPane>
@@ -284,11 +1167,26 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+    <property name="javascript.nodejs.core.library.configured.version" value="10.4.1" />
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+<<<<<<< HEAD
+=======
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/manage" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+>>>>>>> Stashed changes
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -309,9 +1207,13 @@
     </option>
   </component>
   <component name="RunManager">
+<<<<<<< HEAD
     <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/api/server.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+=======
+    <configuration name="server.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/api" />
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.server.js" />
@@ -330,6 +1232,7 @@
       <updated>1558079788624</updated>
       <workItem from="1558079792228" duration="114000" />
       <workItem from="1558080037102" duration="21000" />
+<<<<<<< HEAD
       <workItem from="1558243021305" duration="22094000" />
       <workItem from="1558310824278" duration="9794000" />
       <workItem from="1558399121458" duration="7287000" />
@@ -337,27 +1240,96 @@
       <workItem from="1558581482181" duration="8887000" />
       <workItem from="1558688385899" duration="20171000" />
       <workItem from="1558751330397" duration="20636000" />
+=======
+<<<<<<< Updated upstream
+      <workItem from="1558183414888" duration="21000" />
+      <workItem from="1558183666681" duration="8833000" />
+      <workItem from="1558247712571" duration="23681000" />
+      <workItem from="1558314614488" duration="12173000" />
+      <workItem from="1558422807090" duration="1427000" />
+<<<<<<< HEAD
+      <workItem from="1558446989359" duration="599000" />
+      <workItem from="1558486743280" duration="29000" />
+      <workItem from="1558614719077" duration="976000" />
+      <workItem from="1558615718546" duration="678000" />
+      <workItem from="1558617022611" duration="2162000" />
+      <workItem from="1558619761455" duration="2273000" />
+      <workItem from="1558697673301" duration="1937000" />
+      <workItem from="1558699915656" duration="2142000" />
+=======
+=======
+      <workItem from="1558399675799" duration="709000" />
+      <workItem from="1558408845915" duration="110000" />
+      <workItem from="1558409814683" duration="6169000" />
+      <workItem from="1558446871447" duration="145000" />
+      <workItem from="1558484920534" duration="3154000" />
+      <workItem from="1558580393909" duration="1198000" />
+>>>>>>> Stashed changes
+>>>>>>> c94d0d885bae56ef6de76e09509a679536fd83fb
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="93081000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18887262" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="57066000" />
+=======
+<<<<<<< Updated upstream
+    <option name="totallyTimeSpent" value="46270000" />
+=======
+    <option name="totallyTimeSpent" value="11620000" />
+>>>>>>> Stashed changes
+>>>>>>> c94d0d885bae56ef6de76e09509a679536fd83fb
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+<<<<<<< HEAD
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.16294643" />
+=======
+<<<<<<< Updated upstream
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.1845238" />
+>>>>>>> c94d0d885bae56ef6de76e09509a679536fd83fb
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.02618658" />
+      <window_info id="Structure" order="1" sideWeight="0.5008183" side_tool="true" weight="0.1845238" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
+      <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.1845238" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1845238" />
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.35601267" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" />
+>>>>>>> Stashed changes
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.1028481" />
+=======
+      <window_info anchor="bottom" id="Terminal" order="8" />
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -368,6 +1340,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+<<<<<<< HEAD
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -384,8 +1357,19 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+=======
+<<<<<<< Updated upstream
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/manage/src/components/admin/add.vue">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -402,10 +1386,174 @@
           <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/api/module/userRouter.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/public/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/bus/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/components/admin/add.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/components/common/pageInfo.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/components/common/pageInfoTwo.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/components/goods/addGoodsType.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1374" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/components/goods/list.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/components/shop/addShop.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/components/shop/addShopType.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/components/shop/list.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2791" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/components/shop/typeList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1880" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/components/user/my.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/filters/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-615" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/router/admin/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/store/config/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/src/views/UserYe/Inden/dfk.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/src/views/UserYe/Inden/dpj.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/src/components/User/UHeader.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-897" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/src/components/Home/Search.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="52" column="9" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="52" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/objectid.js" />
+    <entry file="file://$PROJECT_DIR$/manage/src/components/common/isLogin.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/components/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/node_modules/mongodb/lib/topologies/server.js" />
+    <entry file="file://$PROJECT_DIR$/manage/src/store/admin/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1208" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/module/token.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/module/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1564">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+=======
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/api/router/admin.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/src/views/Shopcar.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/src/components/Register/register.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/router/shop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+          <folding>
+            <element signature="e#3357#3521#0" />
+            <element signature="e#3589#3858#0" />
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/manage/src/components/goods/list.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -510,10 +1658,164 @@
           <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/api/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2781">
+          <caret line="103" column="4" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="4" />
+>>>>>>> Stashed changes
+>>>>>>> c94d0d885bae56ef6de76e09509a679536fd83fb
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/views/Login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+        <state relative-caret-position="-736">
+          <caret line="4" column="63" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/router/user/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/router/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="65" column="18" lean-forward="true" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/api/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/components/user/reg.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-851">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#el-table#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#template#0;n#el-table-column#0;n#el-table#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#template#0;n#el-table-column#1;n#el-table#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#template#0;n#el-table-column#2;n#el-table#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+=======
+        <state relative-caret-position="2106">
+          <caret line="78" column="22" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
+>>>>>>> c94d0d885bae56ef6de76e09509a679536fd83fb
+    <entry file="file://$PROJECT_DIR$/manage/src/components/common/isRegister.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/store/user/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/components/admin/log.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2415">
+          <caret line="105" column="14" lean-forward="true" selection-start-line="105" selection-start-column="14" selection-end-line="105" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="989">
+          <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/router/lead.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/src/components/User/Slideshow.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/src/views/User.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="37" column="15" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/router/shop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="86" column="38" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/router/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="163" column="2" selection-start-line="163" selection-start-column="2" selection-end-line="163" selection-end-column="2" />
+          <folding>
+            <element signature="e#161#1812#0" />
+            <element signature="e#1858#3240#0" />
+            <element signature="e#3291#3462#0" />
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/site/src/router/main/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -772,6 +2074,77 @@
           <folding>
             <element signature="e#3848#3876#0" expanded="true" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/manage/src/components/user/reg.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/node_modules/body-parser/node_modules/mime-types/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/vue.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#368#406#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/src/components/Register/register.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="109" column="19" selection-start-line="109" selection-start-column="19" selection-end-line="109" selection-end-column="22" />
+          <folding>
+            <element signature="e#1711#1765#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="115">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="26" />
+=======
+        <state relative-caret-position="460">
+          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+=======
+    <entry file="file://$PROJECT_DIR$/manage/vue.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/src/views/Sort.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="e#37#58#0" expanded="true" />
+          </folding>
+>>>>>>> Stashed changes
+>>>>>>> c94d0d885bae56ef6de76e09509a679536fd83fb
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
         </state>
       </provider>
     </entry>

@@ -2,7 +2,7 @@
     <div>
         <header>
             <div class="top">
-                <a href="#"><i class="iconfont">&#xe60b;</i></a>
+                <a href="javascript:;"><i class="iconfont" @click="back">&#xe60b;</i></a>
             </div>
         </header>
         <section>
@@ -12,19 +12,21 @@
                 </h1>
             </div>
             <div class="phoneNumber">
-                <input type="text" value="请输入手机号">
+                <input type="text" placeholder="请输入手机号" ref="phoneId" @blur="getReg"/>
             </div>
             <div class="VerificationCode">
-                <input type="text" value="请输入短信验证码"><a href="#">获取验证码</a>
+                <input type="text" placeholder="请输入短信验证码" ref="code">
+                <a href="javascript:;"><input type="button" @click="sendCode" :value="sendCodeStr"></a>
             </div>
             <div class="code">
-                <a href="#"><p>用账号密码登陆 > </p></a>
+                <a href="javascript:;"><p>用账号密码登陆 > </p></a>
             </div>
 
-            <button class="denglu"><h2>登陆</h2></button>
+            <button class="denglu" @click="register"><h2>登陆</h2></button>
 
             <div class="Agreement">
-                <input type="checkbox"  value="值"    name="名称"   checked="checked"/><a href="#">已阅读并同意小米<u>账号协议</u>、<u>隐私政策</u>和<u>小米商城用户协议</u></a>
+                <input type="checkbox"  value="值"    name="名称"   checked="checked"/>
+                <a href="javascript:;">已阅读并同意小米<u>账号协议</u>、<u>隐私政策</u>和<u>小米商城用户协议</u></a>
             </div>
 
             <div class="footer">
@@ -39,7 +41,82 @@
 
 <script>
     export default {
-        name: "register"
+        props:["fromindex"],
+        name: "register",
+        data(){
+            return {
+                sendCodeStr:"发送验证码",
+                num:0,
+                timer:null,
+            }
+        },
+        methods:{
+            back() {
+                this.$router.back(-1);
+            },
+            getTime(){
+                // console.log(111);
+                this.$http.get("getTime",{
+                    params:{
+                        phoneId:this.$refs.phoneId.value
+                    }
+                }).then(({data})=>{
+                    this.num = this.sendCodeStr= data.timeNum;
+                    if(this.num<=0){
+                        this.sendCodeStr="发送验证码";
+                        this.num =0;
+                        // 清除计时器
+                        clearInterval(this.timer);
+                    }
+                })
+            },
+            register(){
+                this.$http.post("register",{
+                    phoneId:this.$refs.phoneId.value,
+                    code:this.$refs.code.value
+                }).then(({data})=>{
+                    if(data.ok === 1){
+                        localStorage.phoneId=data.phoneId;
+                        this.$emit("update:index",this.fromindex);
+                        this.$router.push("/my")
+                    }else{
+                        alert(data.msg);
+                    }
+                    console.log(data);
+                })
+            },
+            sendCode(){
+                // console.log(222);
+                // console.log(this.$refs);
+                if(this.num === 0){
+                    this.num = 10;
+                    this.$http.get("sendCode",{
+                        params:{
+                            phoneId:this.$refs.phoneId.value,
+                        }
+                    }).then(({data})=>{
+                        console.log(data);
+                            if(data.ok === 1){
+                                this.$refs.code.value = data.code;
+                                // this.timer = setInterval(this.getTime,1000)
+                            }else{
+                                alert(data.msg);
+                            }
+                    })
+                }else{
+                    alert("时间没到")
+                }
+            },
+            getReg(val){
+                console.log(this.$refs.phoneId);
+                val=/^[1][3,4,5,7,8][0-9]{9}$/;
+                if (!this.$refs.phoneId.val.test(val)) {
+                    return alert("错误");
+                } else {
+                    return alert("正确");
+                }
+            }
+        }
     }
 </script>
 
@@ -93,7 +170,7 @@
         color: #ccc;
 
     }
-    .VerificationCode a{
+    .VerificationCode a input{
         font-size:10px;
         color: #ccc;
         margin-left: -6px;
