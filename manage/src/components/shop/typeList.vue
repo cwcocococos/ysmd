@@ -35,6 +35,12 @@
                 </template>
             </el-table-column>
             <el-table-column
+                    label="商品类别地址">
+                <template slot-scope="scope">
+                    <span style="margin-left: 10px">{{ scope.row.shopTypeUrl }}</span>
+                </template>
+            </el-table-column>
+            <el-table-column
                     label="商品类别的图片">
                 <template slot-scope="scope">
                     <img :src="$store.state.config.baseUrl+scope.row.shopTypePic" alt="">
@@ -68,6 +74,7 @@
         </el-table>
 
         <pageInfo actionsName="getShopTypeList" :params="{search}"></pageInfo>
+
         <addShopType  :visible.sync="dialogFormVisible" ></addShopType>
         <!--<addShop v-if="shop_visible" :visible.sync="shop_visible" :shopTypeId="shopTypeId"></addShop>-->
         <addShop  :visible.sync="shop_visible" :shopTypeId="shopTypeId"></addShop>
@@ -82,7 +89,8 @@
                 dialogFormVisible:false,
                 shop_visible:false,
                 search:"",
-                shopTypeId:""
+                shopTypeId:"",
+                shopTypeUrl:""
             }
         },
         methods:{

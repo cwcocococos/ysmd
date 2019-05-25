@@ -2,19 +2,20 @@
     <div class="home">
         <Header></Header>
         <div>
-            <Select></Select>
+            <router-view></router-view>
         </div>
+        <!--<Select></Select>-->
     </div>
 </template>
 
 <script>
     import Header from "@/components/Home/Header.vue"
-    import Select from "@/components/Home/Select.vue"
+    // import Select from "@/components/Home/Select.vue"
     export default {
         name: "Main",
         components: {
             Header,
-            Select
+            // Select
         }
     }
 </script>
@@ -25,8 +26,6 @@
         justify-content: space-between;
         flex-direction: column;
         height: 100%;
-    }
-    div:nth-child(2){
-        overflow: auto;
+        padding-top:0.725rem;
     }
 </style>

@@ -2,7 +2,17 @@ const formidable = require("formidable");
 const path = require("path");
 const fs = require("fs");
 const tool = require("./tool")
-
+// 上传图片
+/*
+* 接收的参数：
+* req:请求对象
+* picName:表单file元素的name值
+* cb:回调函数。会在upPic执行完毕以后调用 。
+* 返回的内容：
+* {
+*   ok:1,// 1、未上传图片 2、请上传符合要求的图片，.jpg,.png,.gif  3，上传图片成功
+*   msg:// 说明
+* }*/
 module.exports.upPic = function (req,picName,cb) {
     var form = new formidable.IncomingForm();
     form.encoding = "utf-8";

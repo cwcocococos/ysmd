@@ -3,6 +3,7 @@ import Vuex from 'vuex'
 import admin from "./admin"
 import shop from "./shop"
 import config from "./config"
+import adv from "./adv"
 Vue.use(Vuex)
 export default new Vuex.Store({
     state:{
@@ -29,6 +30,7 @@ export default new Vuex.Store({
     modules: {
         admin,
         shop,
-        config// 配置模块
+        config, // 配置模块
+        adv
     }
 })

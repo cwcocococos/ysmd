@@ -1,5 +1,5 @@
 const jwt = require("jwt-simple");
-const KEY = "@##$$%%$^^";
+const KEY = "r%^&^*%$&^*%(&*^(*";
 module.exports.encode=function (adminName) {
     const token = jwt.encode({
         adminName,

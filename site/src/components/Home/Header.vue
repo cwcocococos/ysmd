@@ -1,5 +1,4 @@
 <template>
-    <div class="maincon">
         <header>
             <div class="header-top">
                 <i class="iconfont icon-xinxi"></i>
@@ -15,56 +14,60 @@
                     <i class="iconfont icon-jiantouxia"></i>
                 </div>
                 <div class="nav-items"></div>
-                <div class="nav">
-                    <router-link to="/main" class="nav-item">
-                        <span>推荐</span>
-                    </router-link>
-                    <router-link to="/sj" class="nav-item">
-                        <span>手机</span>
-                    </router-link>
-                    <router-link to="/zn" class="nav-item">
-                        <span>智能</span>
-                    </router-link>
-                    <router-link to="/ds" class="nav-item">
-                        <span>电视</span>
-                    </router-link>
-                    <router-link to="/jd" class="nav-item">
-                        <span>家电</span>
-                    </router-link>
-                    <router-link to="/bj" class="nav-item">
-                        <span>笔记本</span>
-                    </router-link>
-                    <router-link to="/sh" class="nav-item">
-                        <span>生活周边</span>
+                <div class="nav" >
+                    <router-link :to="{path:item.shopTypeUrl,query:{shopTypeName:item.shopTypeName}}" class="nav-item" v-for="(item,i) in shopTypeList" :key="i">
+                        <span>{{item.shopTypeName}}</span>
                     </router-link>
                     <div class="nav-item-exit"></div>
                     <router-view/>
                 </div>
             </div>
         </header>
-    </div>
 </template>
 
 <script>
+    import axios from "axios"
     export default {
         name: "Header",
         methods:{
             search(){
                 this.$router.push({ path:'/search' })
+            },
+            getTypeList(){
+                console.log(123)
+                axios.get('getAllShopTypeList').then(({data})=>{
+                    console.log(data,"type11111")
+                    this.shopTypeList= data.shopTypeList;
+                })
             }
+        },
+        data(){
+            return {
+                shopTypeList:[],
+            }
+        },
+        mounted() {
+            this.getTypeList();
         }
     }
 </script>
 
 <style scoped>
+
     header{
         height:.725rem;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10000;
+        width: 100%;
     }
     header .header-top{
         height:.44rem;
         display: flex;
         justify-content:space-around;
-        align-items:center
+        align-items:center;
+        background: #fff;
     }
     header .header-top h2{
         width:2.6rem;
@@ -135,5 +138,4 @@
         border-bottom:2px solid #f36f1c;
         color:#f36f1c
     }
-
 </style>

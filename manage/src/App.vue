@@ -3,7 +3,7 @@
     <el-header>
       <el-row>
         <el-col class="logo" :span="8" :style="{width:isCollapse?'64px':'240px'}">
-          <strong>{{isCollapse?'米':'小米商城管理系统'}}</strong>
+          <strong>{{isCollapse?'饿':'饿了么管理系统'}}</strong>
         </el-col>
         <el-col class="info" :span="8">
           <i :class="isCollapse?'el-icon-d-arrow-right':'el-icon-d-arrow-left'" @click="isCollapse=!isCollapse"></i>
@@ -11,7 +11,7 @@
         <el-col :span="8" class="adminInfo">
           <el-dropdown trigger="click">
                         <span class="el-dropdown-link">
-                            <span>{{$store.state.admin.adminName}}</span> <img src="./assets/logo.png" alt="">
+                            <span>{{$store.state.admin.adminName}}</span> <img src="./assets/logo.jpg" alt="">
                         </span>
             <el-dropdown-menu slot="dropdown">
               <el-dropdown-item @click.native="$store.commit('OUT_LOGIN')">退出登陆</el-dropdown-item>
@@ -23,7 +23,7 @@
     <el-container>
       <el-aside  :style="{width:isCollapse?'auto':'240px'}">
 
-        <el-menu active-text-color="#ffd04b" :collapse-transition="false" default-active="1-1" class="el-menu-vertical-demo" :collapse="isCollapse">
+        <el-menu :collapse-transition="false" default-active="1-1" class="el-menu-vertical-demo" :collapse="isCollapse">
           <el-submenu index="1">
             <template slot="title">
               <i class="el-icon-setting"></i>
@@ -40,6 +40,15 @@
             </template>
             <el-menu-item index="2-1" @click="$router.push('/shopTypeList')">商品类别列表</el-menu-item>
             <el-menu-item index="2-2" @click="$router.push('/shopList')">商品列表</el-menu-item>
+          </el-submenu>
+
+          <el-submenu index="3">
+            <template slot="title">
+              <i class="el-icon-setting"></i>
+              <span slot="title">广告管理</span>
+            </template>
+            <el-menu-item index="3-1" @click="$router.push('/advTypeList')">广告类别列表</el-menu-item>
+            <el-menu-item index="3-2" @click="$router.push('/advList')">广告列表</el-menu-item>
           </el-submenu>
 
         </el-menu>
@@ -76,32 +85,32 @@
     color: #ffffff;
   }
   .info{
-      font-size:30px;
-      line-height: 60px;
-    }
-    .logo {
-      text-align:center;
-      width: 240px;
-      font-size: 25px;
-      line-height: 60px;
-      border-right: 1px solid rgba(238, 241, 146, 0.3);
-    }
-    .adminInfo {
-      float: right;
-      text-align: right;
-      padding-right: 20px;
-      line-height: 60px;
-      
-    }
-    .el-dropdown-link img {
-          width: 40px;
-          height: 40px;
-          border-radius: 50%;
-          vertical-align: middle;
-        }
-    .el-dropdown-link span {
-        color: #fff;
-      }
+    font-size:30px;
+    line-height: 60px;
+  }
+  .logo {
+    text-align:center;
+    width: 240px;
+    font-size: 25px;
+    line-height: 60px;
+    border-right: 1px solid rgba(238, 241, 146, 0.3);
+  }
+  .adminInfo {
+    float: right;
+    text-align: right;
+    padding-right: 20px;
+    line-height: 60px;
+  }
+  .el-dropdown-link span {
+    color: #fff;
+  }
+
+  .el-dropdown-link img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+  }
   .toolbar {
     background:#f4f4f4;
     padding:10px;

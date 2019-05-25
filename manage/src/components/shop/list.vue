@@ -34,30 +34,29 @@
                 </template>
             </el-table-column>
             <el-table-column
-                    label="商品图片">
+                    label="商品的图片">
                 <template slot-scope="scope">
-                    <img :src="$store.state.config.baseUrl+scope.row.shopPic" alt="">
+                    <img width="100px" :src="$store.state.config.baseUrl+scope.row.shopPic" alt="">
                 </template>
             </el-table-column>
             <el-table-column
-                    label="商品类别">
+                    label="商品的价格">
+                <template slot-scope="scope">
+                    <span style="margin-left: 10px">{{ scope.row.shopPrice }}</span>
+                </template>
+            </el-table-column>
+            <el-table-column
+                    label="商品的内容">
+                <template slot-scope="scope">
+                    <span style="margin-left: 10px">{{ scope.row.shopContent }}</span>
+                </template>
+            </el-table-column>
+            <el-table-column
+                    label="商品的类别">
                 <template slot-scope="scope">
                     {{scope.row.shopTypeName}}
                 </template>
             </el-table-column>
-             <el-table-column
-                    label="商品价格">
-                <template slot-scope="scope">
-                    {{scope.row.shopPrice}}
-                </template>
-            </el-table-column>
-             <el-table-column
-                    label="商品描述">
-                <template slot-scope="scope">
-                    {{scope.row.shopContent}}
-                </template>
-            </el-table-column>
-
             <el-table-column
                     label="上传时间">
                 <template slot-scope="scope">
@@ -67,6 +66,9 @@
 
             <el-table-column label="操作" width="400">
                 <template slot-scope="scope">
+                    <el-button
+                            size="mini"
+                    >编辑</el-button>
                     <el-button
                             size="mini"
                             type="danger"
@@ -104,7 +106,9 @@
                 pageIndex:1,
                 pageSum:1,
                 shopTypeId:"",
-                shopId:""
+                shopId:"",
+                shopPrice:"",
+                shopContent:""
             }
         },
         methods:{
@@ -119,12 +123,6 @@
                     this.pageIndex = data.pageIndex;
                     this.pageSum = data.pageSum;
 
-
-
-                    // this.$store.commit("SET_PAGE_INFO",{
-                    //     pageIndex:data.pageIndex,
-                    //     pageSum:data.pageSum
-                    // })
                 })
             }
         },

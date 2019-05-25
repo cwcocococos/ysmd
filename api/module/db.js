@@ -41,6 +41,13 @@ module.exports.find = function (coll,obj,cb) {
         db.collection(coll).find(obj.whereObj).skip(obj.skipNum).limit(obj.limitNum).sort(obj.sortObj).toArray(cb)
     })
 }
+// 根据条件 查找一条记录
+module.exports.findOne = function (coll,whereObj,cb) {
+    _connect(db=>{
+        db.collection(coll).findOne(whereObj,cb);
+        //  deleteMany
+    })
+}
 // 根据ID进行删除
 module.exports.deleteOneById = function (coll,id,cb) {
     _connect(db=>{
@@ -51,13 +58,7 @@ module.exports.deleteOneById = function (coll,id,cb) {
 module.exports.findOneById = function (coll,id,cb) {
     _connect(db=>{
         db.collection(coll).findOne({_id:mongodb.ObjectId(id)},cb);
-                        //  deleteMany
-    })
-}
-module.exports.findOne = function (coll,whereObj,cb) {
-    _connect(db=>{
-        db.collection(coll).findOne(whereObj,cb);
-        //  deleteMany
+    //  deleteMany
     })
 }
 module.exports.updateOneById = function (coll,id,upObj,cb) {
