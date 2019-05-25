@@ -1,9 +1,12 @@
 const express = require("express");
 const admin = require("./router/admin");
 const shop = require("./router/shop");
+<<<<<<< Updated upstream
 const lead = require("./router/lead");
 const user= require("./router/user");
 const db=require("./module/db");
+=======
+>>>>>>> Stashed changes
 
 const bodyParser = require("body-parser");
 
@@ -25,18 +28,28 @@ app.get("/userReg",user.userReg);
 app.get("/sendCode",user.sendCode);
 app.get("/getTime",user.getTime);
 
-/******店铺类别相关******/
+/*********************店铺类别相关**********************************/
 app.post("/addShopType",shop.addShopType);
 app.get("/getShopTypeList",shop.getShopTypeList);
 app.get("/getAllShopTypeList",shop.getAllShopTypeList);
 
-/****店铺相关*****/
+/*********************店铺相关**********************************/
 app.post("/addShop",shop.addShop);
 app.get("/shopList",shop.getShopList);
+app.get("/getAllshopList",shop.getAllShopList);
 app.get("/getShopListByTypeId",shop.getShopListByTypeId);
+//获取一类商品信息
+app.get("/getGoodsByShopTypeId",shop.getGoodsByShopTypeId);
 
+
+
+
+
+<<<<<<< Updated upstream
 /* 前端 */
 app.get("/getShopList",lead.getShopList);
+=======
+>>>>>>> Stashed changes
 
 app.listen(80,function () {
     console.log("success");

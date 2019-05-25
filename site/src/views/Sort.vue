@@ -12,22 +12,7 @@
             <article>
                 <div class="left">
                     <ul v-for="(item,index) in shopTypeList">
-                      <li :class="{'active' : shopIndex === index}" @click="selectMenu(index)" >{{item.shopTypeName}} </li>
-                        <!--<li>服饰 </li>-->
-                        <!--<li>服饰 </li>-->
-                        <!--<li>服饰 </li>-->
-                        <!--<li>服饰 </li>-->
-                        <!--<li>服饰 </li>-->
-                        <!--<li>服饰 </li>-->
-                        <!--<li>服饰 </li>-->
-                        <!--<li>服饰 </li>-->
-                        <!--<li>服饰 </li>-->
-                        <!--<li>服饰 </li>-->
-                        <!--<li>服饰 </li>-->
-                        <!--<li>服饰 </li>-->
-                        <!--<li>服饰 </li>-->
-                        <!--<li>服饰 </li>-->
-
+                      <li :class="{'active' : shopIndex === index}" @click="selectMenu(index)"  >{{item.shopTypeName}} </li>
                     </ul>
                 </div>
                 <div class="right">
@@ -48,58 +33,6 @@
                         <GoodsList :goodsList="goodsList[12]"></GoodsList>
                         <GoodsList :goodsList="goodsList[13]"></GoodsList>
                         <GoodsList :goodsList="goodsList[14]"></GoodsList>
-                        <!--<div class="phone" >-->
-                            <!--&lt;!&ndash;<p class="p1"><img src="../assets/images/1.jpg" alt=""></p>&ndash;&gt;-->
-                            <!--<p class="p1"><img :src="'http://127.0.0.1/'+item.shopTypePic"></p>-->
-                            <!--<ul>-->
-                                <!--<li>-->
-                                    <!--<p>-->
-                                        <!--<b><img src="../assets/images/phone1.png" alt=""></b>-->
-                                        <!--小米6-->
-                                    <!--</p>-->
-                                    <!--<p>-->
-                                        <!--<b><img src="../assets/images/phone1.png" alt=""></b>-->
-                                        <!--小米6-->
-                                    <!--</p>-->
-                                    <!--<p>-->
-                                        <!--<b><img src="../assets/images/phone1.png" alt=""></b>-->
-                                        <!--小米6-->
-                                    <!--</p>-->
-                                <!--</li>-->
-                                <!--<li>-->
-                                    <!--<p>-->
-                                        <!--<b><img src="../assets/images/phone1.png" alt=""></b>-->
-                                        <!--小米6-->
-                                    <!--</p>-->
-                                    <!--<p>-->
-                                        <!--<b><img src="../assets/images/phone1.png" alt=""></b>-->
-                                        <!--小米6-->
-                                    <!--</p>-->
-                                    <!--<p>-->
-                                        <!--<b><img src="../assets/images/phone1.png" alt=""></b>-->
-                                        <!--小米6-->
-                                    <!--</p>-->
-                                <!--</li>-->
-                                <!--<li>-->
-                                    <!--<p>-->
-                                        <!--<b><img src="../assets/images/phone1.png" alt=""></b>-->
-                                        <!--小米6-->
-                                    <!--</p>-->
-                                    <!--<p>-->
-                                        <!--<b><img src="../assets/images/phone1.png" alt=""></b>-->
-                                        <!--小米6-->
-                                    <!--</p>-->
-                                    <!--<p>-->
-                                        <!--<b><img src="../assets/images/phone1.png" alt=""></b>-->
-                                        <!--小米6-->
-                                    <!--</p>-->
-                                <!--</li>-->
-                            <!--</ul>-->
-                        <!--</div>-->
-                        <!--<GoodsType :goodsList="goodsList[0]"></GoodsType>-->
-                        <!--<GoodsType :goodsList="goodsList[1]"></GoodsType>-->
-                        <!--<GoodsType :goodsList="goodsList[0]"></GoodsType>-->
-                        <!--<GoodsType :goodsList="goodsList[0]"></GoodsType>-->
                     </div>
 
                 </div>
@@ -109,60 +42,7 @@
 
     </div>
 </template>
-<!--<script src="../../public/jquery-1.11.3.js"></script>-->
-<!--<script>-->
-    <!--var $uList =  $(".left ul li"),-->
-        <!--$oList = $(".both"),-->
-        <!--flag = true;//假设值为true时 滚动条操作代码可以执行-->
-    <!--//1、点击楼层号    显示对应的楼层-->
-    <!--$uList.click(function(){-->
-        <!--flag = false;-->
-        <!--//获取当前操作的楼层号的下标-->
-        <!--var index = $(this).index();-->
-        <!--//根据下标找到对应的楼层-->
-        <!--var $f = $oList.eq(index);-->
-        <!--//获取该楼层相对于body的距离-->
-        <!--var t = $f.offset().top;-->
-        <!--//设置页面滚走的距离为t-->
-        <!--$("body,html").animate( { scrollTop : t } , 2000 ,function(){-->
-            <!--//运动完成后 开启flag的值为true 使滚动条可以操作-->
-            <!--flag = true;-->
-        <!--} );-->
-        <!--//设置当前操作的楼层号的样式-->
-        <!--$(this).addClass("active")-->
-            <!--.end()-->
-            <!--.siblings()-->
-            <!--.removeClass("active");-->
-    <!--})-->
-    <!--//3、操作滚动条  根据可视区窗口最大高度的楼层显示对应的楼层号-->
-    <!--$(window).scroll(function(){-->
-        <!--if( flag ){-->
-            <!--//获取页面滚走的距离-->
-            <!--var sTop = $(document).scrollTop();-->
-            <!--//根据某个条件找到当前在可视区中高度最高的楼层-->
-            <!--//条件 ：  遍历每一个楼层  某个楼层的top-页面滚走的距离 < 楼层高度/2-->
-            <!--var $floor = $oList.filter(function(index){-->
-                <!--//返回满足某个条件的楼层-->
-                <!--return Math.abs($(this).offset().top - sTop) < $(this).height()/2;-->
-            <!--})-->
 
-            <!--//从而得到这个楼层所在的下标-->
-            <!--var index = $floor.index();-->
-            <!--if( index != -1 ){-->
-                <!--//根据楼层的下标找到要高亮显示的楼层号-->
-                <!--$uList.eq(index).addClass("active")-->
-                    <!--.end()-->
-                    <!--.siblings()-->
-                    <!--.removeClass("active");-->
-            <!--}-->
-            <!--//如果页面滚走的距离小于某个值100  将楼层号的样式清空-->
-            <!--if( sTop < 100 ){-->
-                <!--$uList.removeClass("active");-->
-            <!--}-->
-        <!--}-->
-    <!--})-->
-
-<!--</script>-->
 <script>
     import axios from "axios"
     import GoodsList from "../components/Shopcontent/Goods"
@@ -369,13 +249,14 @@
 
     /*}*/
 
-    /*.phone ul li{*/
-        /*height: 0.83rem;*/
-        /*margin: 0.15rem 0;*/
-        /*display: flex;*/
-        /*flex-direction: row;*/
-        /*justify-content: space-between;*/
-    /*}*/
+    .phone ul li{
+        height: 0.83rem;
+        margin: 0.15rem 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background: pink;
+    }
     /*.phone ul li p{*/
         /*width: 33%;*/
         /*height: 0.83rem;*/

@@ -5,7 +5,8 @@ import store from './store/index'
 import axios from "axios"
 import ElementUI from 'element-ui';// ui 核心 库
 import 'element-ui/lib/theme-chalk/index.css';// 组件库所用到时的样式
-
+import fastClick from 'fastclick'
+fastClick.attach(document.body)
 Vue.config.productionTip = false;
 Vue.use(ElementUI);
 Vue.prototype.$http=axios;

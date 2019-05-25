@@ -72,25 +72,17 @@
         }
     }
 </script>
-<<<<<<< Updated upstream
-<style>
-=======
+
 <style lang="less">
->>>>>>> Stashed changes
   .el-menu-vertical-demo:not(.el-menu--collapse) {
     width: 240px;
     min-height: 1000px;
   }
   .el-header {
     padding: 0px!important;
-    background: orange;
+    background: #409EFF;
     color: #ffffff;
-<<<<<<< Updated upstream
-  }
-  .info{
-=======
     .info{
->>>>>>> Stashed changes
       font-size:30px;
       line-height: 60px;
     }
@@ -106,31 +98,19 @@
       text-align: right;
       padding-right: 20px;
       line-height: 60px;
-<<<<<<< Updated upstream
-      
-    }
-    .el-dropdown-link img {
-=======
       .el-dropdown-link {
         span {
           color: #fff;
         }
         img {
->>>>>>> Stashed changes
           width: 40px;
           height: 40px;
           border-radius: 50%;
           vertical-align: middle;
         }
-<<<<<<< Updated upstream
-    .el-dropdown-link span {
-        color: #fff;
-      }
-=======
       }
     }
   }
->>>>>>> Stashed changes
   .toolbar {
     background:#f4f4f4;
     padding:10px;
@@ -143,3 +123,4 @@
     margin-bottom:0px;
   }
 </style>
+

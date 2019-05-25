@@ -12,6 +12,7 @@ import bus from "@/bus"
 import components from "@/components"
 
 Vue.use(components);
+
 Vue.prototype.$axios = axios;
 Vue.prototype.$bus=bus;
 /******************************axios拦截器*********************************************/
