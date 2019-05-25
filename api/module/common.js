@@ -12,9 +12,9 @@ module.exports.getPageList=function(req,res,coll,obj) {
             pageIndex = 1;
         obj.limitNum = obj.limitNum || config.limitNum;
         obj.skipNum = (pageIndex-1)*obj.limitNum;
-        db.find("shopTypeList",obj,function (err,shopTypeList) {
+        db.find(coll,obj,function (err,results) {
             res.json({
-                shopTypeList,
+                [coll]:results,
                 pageSum,
                 pageIndex
             })

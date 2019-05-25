@@ -1,11 +1,14 @@
 <template>
     <!--<el-dialog title="添加店铺类别" :visible.sync="visible">-->
-    <el-dialog title="添加店铺类别" :visible="visible"  @update:visible="v=>$emit('update:visible',v)">
+    <el-dialog title="添加商品类别" :visible="visible"  @update:visible="v=>$emit('update:visible',v)">
         <el-form :model="form" ref="myForm">
-            <el-form-item prop="shopTypeName" label="店铺类别名称" label-width="200px">
+            <el-form-item prop="shopTypeName" label="商品类别名称" label-width="200px">
                 <el-input v-model="form.shopTypeName" autocomplete="off"></el-input>
             </el-form-item>
-            <el-form-item label="店铺类别图片">
+            <el-form-item prop="shopTypeUrl" label="商品类别地址" label-width="200px">
+                <el-input v-model="form.shopTypeUrl" autocomplete="off"></el-input>
+            </el-form-item>
+            <el-form-item label="商品类别图片">
                 <el-upload
                         :data = "form"
                         ref="upload"
@@ -35,7 +38,8 @@
         data(){
             return {
                 form:{
-                    shopTypeName:""// 店铺类别名称
+                    shopTypeName:"",// 店铺类别名称
+                    shopTypeUrl:""
                 }
             }
         },

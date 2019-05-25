@@ -3,14 +3,20 @@ const {getPageList} = require("../module/common")
 const {upPic} = require("../module/upPic");
 const mongodb = require("mongodb");
 
+<<<<<<< HEAD
+/*商品类别*/
+// 添加商品类别
+=======
 /*************************店铺类别*****************************************/
 // 添加店铺类别
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
 module.exports.addShopType = function (req,res) {
     upPic(req,"shopTypePic",function (obj) {
         if(obj.ok === 3){
             db.insertOne("shopTypeList",{
                 shopTypeName:obj.params.shopTypeName,
                 shopTypePic:obj.params.newPicName,
+                shopTypeUrl:obj.params.shopTypeUrl,
                 addTime:Date.now()
             },function (err,results) {
                 res.json({
@@ -29,7 +35,7 @@ module.exports.addShopType = function (req,res) {
     })
 }
 
-// 获得店铺类别
+// 获得商品类别
 module.exports.getShopTypeList = function (req,res) {
     console.log(req.query);
     var search = req.query.search || "";
@@ -66,8 +72,13 @@ module.exports.getShopTypeList = function (req,res) {
     //  })
 
 }
+<<<<<<< HEAD
+
+// 获得商品所有类别
+=======
 //获取全部
 // 获得店铺所有类别
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
 module.exports.getAllShopTypeList = function (req,res) {
     db.find("shopTypeList",{
         sortObj:{addTime:1}
@@ -78,8 +89,13 @@ module.exports.getAllShopTypeList = function (req,res) {
         })
     })
 }
+<<<<<<< HEAD
+/*商品*/
+// 添加商品
+=======
 /*************************店铺*****************************************/
 // 添加店铺
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
 module.exports.addShop = function(req,res){
     upPic(req,"shopPic",function (obj) {
         if(obj.ok === 3){
@@ -118,6 +134,10 @@ module.exports.getShopList = function (req,res) {
         }
     })
 }
+<<<<<<< HEAD
+/*商品*/
+// 根据 ID来查找商品。
+=======
 module.exports.getAllShopList = function (req,res) {
     db.find("shopList",{
         sortObj:{addTime:1}
@@ -147,10 +167,26 @@ module.exports.getGoodsByShopTypeId = function(req,res){
 
 /*****************************商品***************************************/
 // 根据 D来查找店铺。
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
 module.exports.getShopListByTypeId= function (req,res) {
+    console.log(req.query)
     db.find("shopList",{
         whereObj:{
             shopTypeId:mongodb.ObjectId(req.query.shopTypeId)
+        }
+    },function (err,shopList) {
+        res.json({
+            ok:2,
+            shopList
+        })
+    })
+}
+module.exports.getShopListByTypeName= function (req,res) {
+    console.log(req.query)
+    db.find("shopList",{
+        whereObj:{
+            // shopTypeName:mongodb.ObjectId(req.query.shopTypeName)
+            shopTypeName:req.query.shopTypeName
         }
     },function (err,shopList) {
         res.json({

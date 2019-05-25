@@ -46,7 +46,10 @@
                         *      actions当中调用登陆接口，成功以后修改用户的登陆状态
                         * */
                         this.$store.dispatch("login",this);
+<<<<<<< HEAD
+=======
 
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
                         // this.$store.dispatch("login",{
                         //     parmas:this.adminForm,
                         //     cb(data){
@@ -73,7 +76,7 @@
     margin:250px auto;
     padding:10px 30px;
     border:1px solid #eaeaea;
-    box-shadow:0 0 20px rgb(129, 129, 206);
+    box-shadow:0 0 20px green;
 }
 h3{
     text-align:center;

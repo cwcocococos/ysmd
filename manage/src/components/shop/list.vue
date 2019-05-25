@@ -35,28 +35,33 @@
                 </template>
             </el-table-column>
             <el-table-column
-                    label="商品图片">
+                    label="商品的图片">
                 <template slot-scope="scope">
-                    <img :src="$store.state.config.baseUrl+scope.row.shopPic" alt="">
+                    <img width="100px" :src="$store.state.config.baseUrl+scope.row.shopPic" alt="">
                 </template>
             </el-table-column>
             <el-table-column
-                    label="商品类别">
+                    label="商品的价格">
                 <template slot-scope="scope">
-                    {{scope.row.shopTypeName}}
+                    <span style="margin-left: 10px">{{ scope.row.shopPrice }}</span>
                 </template>
             </el-table-column>
+<<<<<<< HEAD
+            <el-table-column
+                    label="商品的内容">
+=======
 
              <el-table-column
                     label="商品价格">
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
                 <template slot-scope="scope">
-                    {{scope.row.shopPrice}}
+                    <span style="margin-left: 10px">{{ scope.row.shopContent }}</span>
                 </template>
             </el-table-column>
-             <el-table-column
-                    label="商品描述">
+            <el-table-column
+                    label="商品的类别">
                 <template slot-scope="scope">
-                    {{scope.row.shopContent}}
+                    {{scope.row.shopTypeName}}
                 </template>
             </el-table-column>
             <el-table-column
@@ -68,10 +73,30 @@
 
             <el-table-column label="操作" width="400">
                 <template slot-scope="scope">
+<<<<<<< HEAD
+                    <el-button
+                            size="mini"
+                    >编辑</el-button>
+                    <el-button
+                            size="mini"
+                            type="danger"
+                    >删除</el-button>
+                    <el-button
+                            size="mini"
+                            type="warning"
+                            @click="goodsTypeVisible=true;shopTypeId=scope.row.shopTypeId;shopId=scope.row._id"
+                    >添加商品类别</el-button>
+                    <el-button
+                            size="mini"
+                            type="warning"
+
+                    >添加商品</el-button>
+=======
                     <el-button size="mini">编辑</el-button>
                     <el-button size="mini" type="danger">删除</el-button>
                     <el-button size="mini" type="warning" type="primary" @click="goodsTypeVisible=true;shopTypeId=scope.row.shopTypeId;shopId=scope.row._id">添加商品类别</el-button>
                     <el-button size="mini" type="warning" type="primary">添加商品</el-button>
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
                 </template>
             </el-table-column>
         </el-table>
@@ -95,7 +120,9 @@
                 pageIndex:1,
                 pageSum:1,
                 shopTypeId:"",
-                shopId:""
+                shopId:"",
+                shopPrice:"",
+                shopContent:""
             }
         },
         methods:{
@@ -110,12 +137,6 @@
                     this.pageIndex = data.pageIndex;
                     this.pageSum = data.pageSum;
 
-
-
-                    // this.$store.commit("SET_PAGE_INFO",{
-                    //     pageIndex:data.pageIndex,
-                    //     pageSum:data.pageSum
-                    // })
                 })
             }
         },

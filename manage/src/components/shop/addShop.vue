@@ -4,13 +4,7 @@
             <el-form-item prop="shopTypeName" label="商品名称" label-width="150px">
                 <el-input v-model="form.shopName" style="width:300px;" autocomplete="off"></el-input>
             </el-form-item>
-            <el-form-item prop="shopTypeName" label="商品描述" label-width="150px">
-                <el-input v-model="form.shopContent" style="width:300px;" autocomplete="off"></el-input>
-            </el-form-item>
-            <el-form-item prop="shopTypeName" label="商品价格" label-width="150px">
-                <el-input v-model="form.shopPrice" style="width:300px;" autocomplete="off"></el-input>
-            </el-form-item>
-            <el-form-item prop="shopTypeId" label="店铺类别" label-width="150px">
+            <el-form-item prop="shopTypeId" label="商品类别" label-width="150px">
                 <el-select v-model="form.shopTypeId" placeholder="请选择">
                     <el-option v-for="item in $store.state.shop.allShopTypeList"
                             :key="item._id"
@@ -19,7 +13,13 @@
                     </el-option>
                 </el-select>
             </el-form-item>
-            <el-form-item label="店铺图片" label-width="150px">
+            <el-form-item prop="shopPrice" label="商品价钱" label-width="150px">
+                <el-input v-model="form.shopPrice" style="width:300px;" autocomplete="off"></el-input>
+            </el-form-item>
+            <el-form-item prop="shopContent" label="商品内容" label-width="150px">
+                <el-input v-model="form.shopContent" style="width:300px;" autocomplete="off"></el-input>
+            </el-form-item>
+            <el-form-item label="商品图片" label-width="150px">
                 <el-upload
                         :data = "form"
                         ref="upload"
@@ -78,10 +78,6 @@
                 console.log(33333,this.$route.name);
 
                 this.$emit('update:visible',false);
-
-
-
-
             },
             addShop(){
                 this.$refs.upload.submit();
@@ -97,10 +93,6 @@
         },
         mounted(){
             this.$store.dispatch("getAllShopTypeList");
-            // if(this.shopTypeId){
-            //     this.form.shopTypeId=this.shopTypeId;
-            // }
-            // console.log(111111,this.shopTypeId)
         }
     }
 </script>

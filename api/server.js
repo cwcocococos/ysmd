@@ -1,9 +1,22 @@
 const express = require("express");
 const admin = require("./router/admin");
 const shop = require("./router/shop");
+<<<<<<< HEAD
 const lead = require("./router/lead");
 const user= require("./router/user");
 const db=require("./module/db");
+=======
+<<<<<<< HEAD
+const adv = require("./router/adv")
+=======
+<<<<<<< Updated upstream
+const lead = require("./router/lead");
+const user= require("./router/user");
+const db=require("./module/db");
+=======
+>>>>>>> Stashed changes
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
+>>>>>>> 82a854974e22f25aca8ebec68282d6b2a01a7f17
 
 const bodyParser = require("body-parser");
 
@@ -25,12 +38,21 @@ app.get("/userReg",user.userReg);
 app.get("/sendCode",user.sendCode);
 app.get("/getTime",user.getTime);
 
+<<<<<<< HEAD
+/*商品类别相关*/
+app.post("/addShopType",shop.addShopType);
+app.get("/getShopTypeList",shop.getShopTypeList);
+app.get("/getAllShopTypeList",shop.getAllShopTypeList);
+app.get("/getShopListByTypeName",shop.getShopListByTypeName)
+/*商品*/
+=======
 /*********************店铺类别相关**********************************/
 app.post("/addShopType",shop.addShopType);
 app.get("/getShopTypeList",shop.getShopTypeList);
 app.get("/getAllShopTypeList",shop.getAllShopTypeList);
 
 /*********************店铺相关**********************************/
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
 app.post("/addShop",shop.addShop);
 app.get("/shopList",shop.getShopList);
 app.get("/getAllshopList",shop.getAllShopList);
@@ -38,8 +60,33 @@ app.get("/getShopListByTypeId",shop.getShopListByTypeId);
 //获取一类商品信息
 app.get("/getGoodsByShopTypeId",shop.getGoodsByShopTypeId);
 
+<<<<<<< HEAD
 /* 前端 */
 app.get("/getShopList",lead.getShopList);
+=======
+<<<<<<< HEAD
+/*广告类别*/
+app.post("/addAdvType",adv.addAdvType);
+app.get("/getAdvTypeList",adv.getAdvTypeList);
+app.get("/getAllAdvTypeList",adv.getAllAdvTypeList);
+
+/*广告*/
+app.post("/addAdv",adv.addAdv);
+app.get("/advList",adv.getAdvList);
+app.get("/getAdvListByTypeId",adv.getAdvListByTypeId);
+
+=======
+
+
+
+
+<<<<<<< Updated upstream
+/* 前端 */
+app.get("/getShopList",lead.getShopList);
+=======
+>>>>>>> Stashed changes
+>>>>>>> 0e6e9dd6b5fe4814962f734a1439f9cbe0a54081
+>>>>>>> 82a854974e22f25aca8ebec68282d6b2a01a7f17
 
 app.listen(80,function () {
     console.log("success");

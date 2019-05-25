@@ -4,8 +4,8 @@
             <el-form-item prop="goodsTypeName" label="商品类别名称" label-width="150px">
                 <el-input v-model="form.goodsTypeName" style="width:300px;" autocomplete="off"></el-input>
             </el-form-item>
-            <el-form-item prop="shopId" label="选择店铺" label-width="150px">
-                <el-select @change="getShopListByTypeId" v-model="form.shopTypeId" placeholder="请选择店铺类别">
+            <el-form-item prop="shopId" label="选择商品" label-width="150px">
+                <el-select @change="getShopListByTypeId" v-model="form.shopTypeId" placeholder="请选择商品类别">
                     <el-option v-for="item in $store.state.shop.allShopTypeList"
                                :key="item._id"
                                :label="item.shopTypeName"
@@ -13,7 +13,7 @@
                     </el-option>
                 </el-select>
 
-                <el-select v-model="form.shopId" style="margin-left:10px;" placeholder="请选择店铺">
+                <el-select v-model="form.shopId" style="margin-left:10px;" placeholder="请选择商品">
                     <el-option v-for="item in shopList"
                                :key="item._id"
                                :label="item.shopName"

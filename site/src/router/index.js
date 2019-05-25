@@ -19,8 +19,8 @@ export default new Router({
   routes: [
     ...second,
     {
-      path: '/main',
-      alias:"/",
+      path: '/',
+      alias:"/main",
       name: 'main',
       component: Main
     },
