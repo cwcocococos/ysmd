@@ -1,12 +1,9 @@
 const express = require("express");
 const admin = require("./router/admin");
 const shop = require("./router/shop");
-<<<<<<< Updated upstream
 const lead = require("./router/lead");
 const user= require("./router/user");
 const db=require("./module/db");
-=======
->>>>>>> Stashed changes
 
 const bodyParser = require("body-parser");
 
@@ -41,16 +38,9 @@ app.get("/getShopListByTypeId",shop.getShopListByTypeId);
 //获取一类商品信息
 app.get("/getGoodsByShopTypeId",shop.getGoodsByShopTypeId);
 
-
-
-
-
-<<<<<<< Updated upstream
 /* 前端 */
 app.get("/getShopList",lead.getShopList);
-=======
->>>>>>> Stashed changes
 
 app.listen(80,function () {
     console.log("success");
-})
+});
